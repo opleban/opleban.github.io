@@ -6,6 +6,14 @@ body {
 	position:relative;
 	left:320px;
 }
+
+#sidebar{
+	position:fixed;
+	top:20px;
+	width:150px;
+	line-height:30px;
+}
+
 #content_area{
 	position:relative;
 	left:150px;
@@ -50,17 +58,8 @@ body {
 	height:200px;
 }
 
-#sidebar{
-	position:relative;
-	top:20px;
-	width:150px;
-	float:left;
-	line-height:30px;
-}
-
-
 #footer{
-	clear:both;
+	bottom:0px;
 	font-size:14px;
 }
 
