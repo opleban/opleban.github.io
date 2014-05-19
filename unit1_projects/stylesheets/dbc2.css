@@ -1,0 +1,100 @@
+body{
+	width: 800px;
+	text-align: center;
+}
+#content_area{
+	float:right;
+	border: 3px dotted black;
+	border-radius: 25px;
+	box-sizing: border-box;
+	margin: 10px auto;
+	width: 600px;
+	height:600px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+#header{
+	font-size: 40px;
+	width: 800px;
+	text-align: center;
+	box-sizing: border-box;
+}
+#footer{
+	box-sizing: border-box;
+	padding: 5px;
+	font-size: 15px;
+	width: 600px;
+	text-align: center;
+	float: right;
+}
+
+#sidebar{
+	float:left;
+	width: 200px;
+}
+
+#sidebar li{
+	text-align:left;
+	line-height:20px;
+	width: 100px;
+}
+
+.excite{
+	color: darkred;
+	font-style: oblique;
+}
+.post {
+}
+
+.post_content{
+	float:left;
+}
+.post_title{
+	margin-bottom:5px;
+	color:darkred;
+	right:25%;
+	text-align: right;
+}
+
+.post_img{
+	margin:10px;
+	float:right;
+	height:200px;
+	width:250px;
+	position:relative;
+}
+
+
+.post img {
+	boxing-size:border-box;
+	border:2px black solid;
+	height:200px;
+	width:250px;
+}
+
+.img_caption{
+	color:gold;
+	background:black;
+	position:absolute;
+	bottom:0px;
+	left:10px;
+	font-size:10px;
+	z-index:2;
+}
+
+a:visited{
+	color:lightblue;
+}
+
+a:hover{
+	color:grey;
+
+}
+a{
+	color:blue;
+
+}

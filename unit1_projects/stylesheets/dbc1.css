@@ -1,0 +1,29 @@
+body {
+	background: #2382FF;
+}
+
+h1 {
+	color: lightgreen;
+	font-style: oblique;
+}
+
+h2 {
+	color: teal;
+}
+
+h5 {
+	color:green;
+	font-style: oblique;
+}
+
+h3{
+	color: darkorange;
+	font-style: italic;
+}
+p {
+	color: #FFBC21;
+}
+.exotic {
+	color: darkred;
+	font-style: italic;
+}
