@@ -1,0 +1,35 @@
+body{
+	background-image: url(../images/first_photo.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 30% 0%;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Oxygen', Ariel, sans-serif;
+}
+header{
+	width:100%;
+	
+}
+
+section{
+	margin-top: 10%;
+	position: relative;
+	width:50%;
+	border-radius:10%;
+	border: 1px solid black;
+	padding: 2%;
+	left:20%;
+	box-sizing:border-box;
+	background-color:#EEE;
+
+}
+
+section img{
+	border-radius:20%;
+	border: 1px solid black;
+	width:30%;
+	height:35%;
+}
