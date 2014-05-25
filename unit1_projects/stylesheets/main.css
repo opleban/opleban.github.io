@@ -1,35 +1,119 @@
 body{
 	background-image: url(../images/first_photo.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 30% 0%;
+	background-position: 30% 20%;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: 'Oxygen', Ariel, sans-serif;
+	font-family: 'Fredoka', Ariel, sans-serif;
+	font-size:14px;
+	line-height:1.5;
 }
+
 header{
-	width:100%;
-	
+	font-family: "Fredoka", Arial, sans-serif;
+	text-align:right;
+	font-size: 3em;
+	box-sizing:border-box;
+	background-color:rgba(275,275,275,0.8);
 }
 
 section{
-	margin-top: 10%;
-	position: relative;
-	width:50%;
 	border-radius:10%;
-	border: 1px solid black;
 	padding: 2%;
-	left:20%;
 	box-sizing:border-box;
-	background-color:#EEE;
+	background-color:rgba(275,275,275,0.8);
+}
 
+section:hover{
+	border: 1px solid black;
+}
+section article{
+	margin-top:5%;
+}
+
+footer{
+	margin-top:5%;
 }
 
 section img{
 	border-radius:20%;
+	width:30%;
+	height:35%;
+	margin:auto;
+}
+
+section img:hover{
+	border-radius:20%;
 	border: 1px solid black;
 	width:30%;
 	height:35%;
+	margin:auto;
 }
+
+section ul{
+	position:relative;
+	margin-right:20%;
+	margin-top:1%;
+	float:right;
+	font-size:1.3em;
+}
+
+.wrapper{
+	width:60%;
+	max-width: 500px;
+	margin:auto;
+}
+
+.headwrap{
+	line-height:1.5;
+	margin-bottom:10%;
+}
+
+a:link{
+	color:blue;
+}
+
+a:visited{
+	color:darkred;
+}
+
+a:hover{
+	color:gold;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper{
+		width:60%;
+		max-width: 500px;
+		margin:auto;
+	}
+
+	.headwrap{
+		line-height:1.5;
+		margin-bottom:5%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper{
+		width:75%;
+		max-width: 400px;
+		margin:auto;
+	}
+
+	.headwrap{
+		line-height:1.5;
+		margin-bottom:2.5%;
+	}
+
+	section ul{
+		position:relative;
+		margin-right:20%;
+		margin-top:1%;
+		float:right;
+		font-size:1.0em;
+	}
+
+}
+
+
