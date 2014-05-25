@@ -1,15 +1,20 @@
 body{
-	width: 800px;
+	width: 100%;
+	max-width: 1400px;
+	min-width:900px;
 	text-align: center;
+	font-size:1em;
 }
-#content_area{
+section{
+	position:relative;
 	float:right;
+	left: -20%;
 	border: 3px dotted black;
 	border-radius: 25px;
 	box-sizing: border-box;
 	margin: 10px auto;
-	width: 600px;
-	height:600px;
+	width: 60%;
+	max-width: 700px;
 	padding-top: 10px;
 	padding-bottom: 25px;
 	padding-right: 25px;
@@ -17,27 +22,37 @@ body{
 	text-align: left;
 }
 
-#header{
+header h1 {
+	margin-top:20px;
+	margin-bottom:20px;
 	font-size: 40px;
 	width: 800px;
 	text-align: center;
 	box-sizing: border-box;
 }
-#footer{
+footer{
+	clear:both;
+	bottom:0%;
 	box-sizing: border-box;
 	padding: 5px;
 	font-size: 15px;
 	width: 600px;
 	text-align: center;
-	float: right;
 }
 
-#sidebar{
+aside{
 	float:left;
-	width: 200px;
+	width: 20%;
+	margin: 25px;
 }
 
-#sidebar li{
+aside h3{
+	text-align:left;
+	margin-bottom:10px;
+	text-decoration: underline;
+}
+
+aside li{
 	text-align:left;
 	line-height:20px;
 	width: 100px;
@@ -53,10 +68,10 @@ body{
 .post_content{
 	float:left;
 }
-.post_title{
+article h3{
+	font-size: 2em;
 	margin-bottom:5px;
 	color:darkred;
-	right:25%;
 	text-align: right;
 }
 
@@ -69,7 +84,7 @@ body{
 }
 
 
-.post img {
+article img {
 	boxing-size:border-box;
 	border:2px black solid;
 	height:200px;
@@ -85,6 +100,8 @@ body{
 	font-size:10px;
 	z-index:2;
 }
+
+
 
 a:visited{
 	color:lightblue;
