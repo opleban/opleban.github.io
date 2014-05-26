@@ -17,6 +17,10 @@ header{
 	background-color:rgba(275,275,275,0.8);
 }
 
+header h1{
+	margin-right:2%;
+}
+
 section{
 	border-radius:10%;
 	padding: 2%;
@@ -64,12 +68,12 @@ section ul{
 .wrapper{
 	width:60%;
 	max-width: 500px;
-	margin:auto;
+	margin:5% auto;
 }
 
 .headwrap{
 	line-height:1.5;
-	margin-bottom:10%;
+	/*margin-bottom:10%;*/
 }
 
 a:link{
@@ -88,7 +92,7 @@ a:hover{
   .wrapper{
 		width:75%;
 		max-width: 500px;
-		margin:auto;
+		margin:auto auto;
 	}
 
 	.headwrap{
@@ -105,7 +109,7 @@ a:hover{
 
 @media screen and (max-width: 500px) {
   .wrapper{
-		width:60%;
+		width:90%;
 		max-width: 400px;
 		margin:auto;
 	}
