@@ -13,10 +13,13 @@ aside{
 }
 
 aside ul{
+	font-weight:bold;
+	margin-top:15%;
 	list-style-type: disc;
 }
 
 aside ul ul{
+	margin-top:0;
 	list-style-type:circle;
 	padding-left:15px;
 }
@@ -33,6 +36,7 @@ article{
 
 p{
 	margin:1em;
+	line-height: 1.2;
 }
 
 h2{
