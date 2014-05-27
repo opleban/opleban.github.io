@@ -165,9 +165,9 @@ header:after {
   opacity: 1;
 }
 
-/*#famous article:nth-child(4n) {
+#famous article:nth-child(4n) {
   clear: both;
-}*/
+}
 
 #famous article img {
   border-radius: 50%;
@@ -320,6 +320,14 @@ footer:after {
     opacity: 0.8;
     padding: 2%;
     width: 44%;
+  }
+
+  #famous article:nth-child(4n) {
+  clear: none;
+  }
+
+  #famous article:nth-child(2n+1) {
+  clear: both;
   }
 
   #main div.wrapper{
