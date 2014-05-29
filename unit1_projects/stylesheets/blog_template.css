@@ -1,7 +1,8 @@
 body {
 	width: 100%;
-	min-width:500px;
-	background-color:#ddd;
+	min-width:800px;
+	background-color:#eee;
+	font-family: "EB Garamond", Ariel, sans-serif;
 }
 
 header{
@@ -22,7 +23,7 @@ aside{
 	width:9%;
 	min-width:120px;
 	line-height:30px;
-	margin-left:2%;
+	padding-left:3%;
 	margin-right:1%;
 }
 
@@ -39,9 +40,9 @@ aside ul ul{
 }
 
 article{
+	box-shadow: -2px 2px 12px #c1c1c1;
 	display:inline-block;
 	margin-bottom:5%;
-	border:3px dotted black;
 	padding:20px;
 	width:60%;
 }
@@ -72,12 +73,17 @@ h4{
 	font-size:1.2em;
 }
 
+.center{
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+
 article ul{
 	font-weight:bold;
 	position:relative;
-	left:250px;
+	right:50%
 	margin-top:40px;
-	list-style-type:disc;
 }
 
 article ul li{
