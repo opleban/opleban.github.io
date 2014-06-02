@@ -6,8 +6,18 @@ body {
 }
 
 header{
+	display:inline-block;
 	position:relative;
 }
+
+nav{
+	display:inline-block;
+}
+
+nav ul li{
+	width:108px;
+}
+
 
 #content_area{
 	display:inline-block;

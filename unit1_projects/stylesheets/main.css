@@ -4,21 +4,30 @@ body{
 	background-position: 30% 20%;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: 'Fredoka', Ariel, sans-serif;
-	font-size:14px;
-	line-height:1.5;
+	font-family: "EB Garamond", Arial, sans-serif;
+	font-size: 1.1 em;
+	line-height:1.4;
 }
 
 header{
-	font-family: "EB Garamond", Arial, sans-serif;
-	text-align:right;
-	font-size: 3em;
 	box-sizing:border-box;
 	background-color:rgba(275,275,275,0.8);
+	box-shadow: -2px 2px 12px #c1c1c1;
+}
+
+header nav{
+
+}
+
+il{
+	width:100px;
+	display:inline-block;
 }
 
 header h1{
+	text-align:right;
 	margin-right:2%;
+	font-size: 3em;
 }
 
 section{
@@ -26,6 +35,7 @@ section{
 	padding: 2%;
 	box-sizing:border-box;
 	background-color:rgba(275,275,275,0.8);
+	box-shadow: -2px 2px 12px #c1c1c1;
 }
 
 section:hover{
@@ -126,6 +136,5 @@ a:hover{
 		margin-bottom:2.5%;
 	}
 
-}
 
 
