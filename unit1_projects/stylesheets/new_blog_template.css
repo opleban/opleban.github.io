@@ -160,9 +160,7 @@ article h3{
 
 .img_caption{
 	color:black;
-	position:absolute;
-	bottom:-14px;
-	left:150px;
+	text-align:center;
 	font-size:12px;
 	z-index:2;
 }
