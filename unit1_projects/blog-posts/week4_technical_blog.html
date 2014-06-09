@@ -1,0 +1,109 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/new_blog_template.css"/>
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+		<title>Cultural Blog </title>
+	</head>
+	
+	<body>
+		<header id="topbar"> 
+				<nav>
+					<ul>
+					<a href="../../index.html"><li id="blue" style="font-weight:bold;">About me</li></a>
+					<a href="technical_blog_index.html"><li>Technical Blog</li></a>
+					<a href="cultural_blog_index.html"><li id="yellow">Cultural Blog</li></a>
+				</ul>
+				</nav>
+		</header>		
+		<div id="content_area">
+			<h3>Looping with Ruby</h3>
+			<article>
+				<p>Not unexpectedly, Ruby provides numerous control flow commands for looping. I'll discuss the various options available and when you should use them.</p>
+				<h4>loop...end</h4>
+				<p>Loop is a simple command that will create an infinite loop. As such, when using loop you'll want to include a "break-if" statement that stops the loop when a certain condition is met.</p>
+
+					<p>x = 0<br> 
+					loop do <br>
+						&nbsp;puts x <br>
+						&nbsp;x += 1 <br>
+					&nbsp;break if x = 5<br>
+					end <br><br>
+					.. <br>
+					0<br>
+					1<br>
+					2<br>
+					3<br>
+					4<br>
+					5 </p>
+
+				<p>As you can see from the example code above. The loop repeats until the break condition, x = 5, is met. Without the break condition, this would be an infinite loop. Loop is simple to use, but in general there doesn't are not any situations where loop..end is preferable to the other options provided by loop, particularly since Ruby also features "while" loops and "until" loops. "Loop do..end" may be preferable in cases where you'd want to implement an infinite loop.<p>
+
+				<h4>while..end</h4>
+
+				<p>A "while" loops will execute a block of code while a condition evaluates as true. The "while" condition is evaluated each time the code block is executed at the beginning loop.</p>
+				
+				<p>x = 0<br>
+				while x >= 5<br>
+				&nbsp;puts x<br>
+				&nbsp;x += 1<br>
+				end<br><br>
+				..<br>
+				0<br>
+				1<br>
+				2<br>
+				3<br>
+				4<br>
+				5 </p>
+
+				<p>The code above acheives the same end as the previous "loop..end" example. A "while" loop can do everything "loop do..end" canod and more. Moreover, "while" loop is more readable than "loop do..end" because the condition under which the code block is executed is more clearly stated at the top of the loop. If you wanted to break the "while" loop even though the "while" condition still evaluates to true, a break statement can also be added within the code block just as with "loop do..end" which will break out of the loop early. Still, you better be careful to choose a condition that will eventually evaluate as false so that an infinite loop is not created (unless that's what you want). "While" loops are useful when you want to execute a code block an indeterminate number of times until a certain condition is met. If you would like your code block to execute a set number of times, you should perhaps consider using one of Ruby's iterator methods such as "<a href="http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-times">times</a>", "<a href="http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-upto">upto</a>","<a href="http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-downto">downto</a>", or "<a href="http://www.ruby-doc.org/core-2.1.2/Range.html#method-i-step">step</a>". </p>
+
+				<h4>until..end</h4>
+
+				<p>"Until..end" is the opposite of a "while" loop. As you would expect from its name, until will run a code block until a certain condition evalutes as true. It is essential the same as a "while" loop with a negated conditioned (!condition).</p>
+
+				<p>x= 0<br>
+				until x == 5<br>
+				&nbsp;puts x<br>
+				&nbsp;x += 1<br>
+				end<br><br>
+			..<br>
+				0<br>
+				1<br>
+				2<br>
+				3<br>
+				4 </p>
+
+				<p>Nothing unexpected here. Personally, I'd default to using a "while" loop where possible, but sometimes it may make your code more readable to express the break condition using "until" rather than with a "while" loop and a negated condition.</p>
+
+				<p>Both  "while" and "until" loops can be used as single line modifier statement. This can be useful when you want to more concisely call a certain method or other single line commands repeatedly under certain conditions.</p>
+
+				<p>def importantMethod(num)<br>
+				&nbsp;puts "Hello"<br>
+				&nbsp;num += 1<br>
+				end<br><br>
+				x=0<br>
+				x = importantMethod(x) while x<5<br>
+
+				Hello<br>
+				Hello<br>
+				Hello<br>
+				Hello </p>
+
+				<p>I will mention briefly that while Ruby also features a "for" loop which allows you to loop through each item in a collection, in almost all cases its better to use one of Ruby's numerous iterator methods, most prominently "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each">each</a>, "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-map">map</a>", "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-select">select"</a>. </p>
+			</article>
+			
+			<footer>Created by Ori Jonathan Pleban. If you have any questions, feel free to <a href="mailto:opleban@gmail.com">email me!</a>
+			</footer>
+		</div>
+		<aside> 
+			<ul><b>More posts</b>
+				<li><a href="week1_cultural_blog.html">DBC -first thoughts</a></li>
+			</ul>
+		</aside>
+	</body>
+	
+</html>

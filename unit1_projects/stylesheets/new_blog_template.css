@@ -4,13 +4,14 @@ body{
 	background-position: 30% 20%;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: "EB Garamond", Arial, sans-serif;
+	font-family: 'Inconsolata', Arial, sans-serif;
 	font-size: 1.1em;
 	line-height:1.4;
 	min-width:861px;
 }
 
 header#topbar{
+	font-family: 'EB Garamond', Arial, sans-serif;
 	position:fixed;
 	display:inline-block;
 	background-color:rgba(275,275,275,0.8);
@@ -99,7 +100,7 @@ aside ul ul{
 	margin-bottom:5%;
 	padding:10px;
 	width:60%;
-	background-color:rgba(275,275,275,0.8);
+	background-color:rgba(250,250,250, 0.8);
 }
 
 article{
