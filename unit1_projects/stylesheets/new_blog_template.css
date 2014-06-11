@@ -6,8 +6,8 @@ body{
 	background-size: cover;
 	font-family: 'Inconsolata', Arial, sans-serif;
 	font-size: 1.1em;
-	line-height:1.4;
 	min-width:861px;
+	li
 }
 
 header#topbar{
@@ -67,20 +67,21 @@ header nav a:hover{
 }
 
 aside{
+	box-sizing:border-box;
 	background-color:rgba(275,275,275,0.8);
 	position:fixed;
 	margin-top:4px;
 	display:inline-block;
 	vertical-align:top;
 	top:76px;
-	width:17%;
+	width:19%;
 	min-width:120px;
 	line-height:30px;
-	padding-left:3%;
+	padding-left: 3%;
+	padding-right:3%;
 }
 
 aside ul{
-	font-weight:bold;
 	margin-top:15%;
 	list-style-type: disc;
 }
@@ -108,7 +109,7 @@ article{
 
 p{
 	margin:1em;
-	line-height: 1.2;
+	line-height: 1.4;
 }
 
 h2{
