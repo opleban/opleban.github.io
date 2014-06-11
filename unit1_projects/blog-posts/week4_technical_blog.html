@@ -63,7 +63,7 @@
 
 				<h4>until..end</h4>
 
-				<p>"Until..end" is the opposite of a "while" loop. As you would expect from its name, until will run a code block until a certain condition evalutes as true. It is essential the same as a "while" loop with a negated conditioned (!condition).</p>
+				<p>"Until..end" is the opposite of a "while" loop. As you would expect from its name, "until" will loop through code block until a certain condition evalutes as true. It is equivalent to using a "while" loop with a negated conditioned (!condition).</p>
 
 				<p>x= 0<br>
 				until x == 5<br>
@@ -77,9 +77,9 @@
 				3<br>
 				4 </p>
 
-				<p>Nothing unexpected here. Personally, I'd default to using a "while" loop where possible, but sometimes it may make your code more readable to express the break condition using "until" rather than with a "while" loop and a negated condition.</p>
+				<p>Nothing unexpected here. Personally, I default to using a "while" loop.  It may make your code more readable to express the loop condition using "until" and a positive condition rather than "while" a negated condition.</p>
 
-				<p>Both  "while" and "until" loops can be used as single line modifier statement. This can be useful when you want to more concisely call a certain method or other single line commands repeatedly under certain conditions.</p>
+				<p>Both  "while" and "until" loops can be used as single line modifier statement. This can be useful when you want to concisely call a method or single-line command repeatedly under certain conditions.</p>
 
 				<p>def importantMethod(num)<br>
 				&nbsp;puts "Hello"<br>
@@ -93,7 +93,7 @@
 				Hello<br>
 				Hello </p>
 
-				<p>I will mention briefly that while Ruby also features a "for" loop which allows you to loop through each item in a collection, in almost all cases its better to use one of Ruby's numerous iterator methods, most prominently "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each">each</a>, "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-map">map</a>", "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-select">select"</a>. </p>
+				<p>I will mention briefly that while Ruby also features a "for" loop which allows you to loop through each item in a collection, in almost all cases its better to use one of Ruby's numerous iterator methods. Most prominently: "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each">each</a>, "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-map">map</a>", and "<a href="http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-select">select"</a>. </p>
 			</article>
 			
 			<footer>Created by Ori Jonathan Pleban. If you have any questions, feel free to <a href="mailto:opleban@gmail.com">email me!</a>
