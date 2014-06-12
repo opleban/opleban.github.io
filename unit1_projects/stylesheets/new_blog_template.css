@@ -3,16 +3,17 @@ body{
 	background-repeat: no-repeat;
 	background-position: 30% 20%;
 	background-attachment: fixed;
-	background-size: cover;
-	font-family: 'Inconsolata', Arial, sans-serif;
+	background-size:cover;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.1em;
+	line-height:1.4;
 	min-width:861px;
 	li
 }
 
 header#topbar{
 	font-family: 'EB Garamond', Arial, sans-serif;
-	position:fixed;
+	position:absolute;
 	display:inline-block;
 	background-color:rgba(275,275,275,0.8);
 	width:100%;
