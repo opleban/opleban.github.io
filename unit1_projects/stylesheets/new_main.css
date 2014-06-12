@@ -7,29 +7,33 @@ body{
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.1em;
 	line-height:1.4;
-	min-width:861px;
+	min-width:870px;
 }
 
 header#topbar{
 	position:fixed;
-	font-family: 'EB Garamond', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	display:inline-block;
-	background-color:rgb(275,275,275);
+	background-color:rgba(275,275,275,0.9);
 	width:100%;
-	min-width:860px;
+	min-width:870px;
 	height:80px;
 	z-index:100;
+}
+
+header h1{
+	font-weight:bold;
 }
 
 nav{
 	float:left;
 	display:inline-block;
-	width:535px;
+	width:580px;
 }
 
 nav li{
 	box-sizing:border-box;
-	width: 175px;
+	width: 185px;
 	height:80px;
 	display:inline-block;
 	padding:20px 10px;
@@ -76,24 +80,27 @@ nav a:hover{
 }
 
 #first {
-	background-image: url(../images/1_panorama.jpg);
+	background-image: url(../images/cold.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+	background-position:0 45%;
 	background-size:cover;
 	height:650px;
+	border-bottom: 10px solid black;
 }
 
 #second{
-	height:400px;
+	height:700px;
 	background-image: url(../images/window_bars.jpg);
 	background-repeat:no-repeat;
-	background-position:0 60%;
+	background-position:0 30%;
 	background-attachment:fixed;
-	background-size:100%;
-}
+	background-size:cover;
+	border-bottom: 10px solid black;
+	}
 
 #third{
-	background-image: url(../images/3_Abandoned.JPG);
+	background-image: url(../images/2_sheep.JPG);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -120,14 +127,14 @@ ul#links a {
 	left:100px;
 }
 
-
 .right{
 	position:relative;
 	font-weight:bold;
 	font-size:1.5em;
 	float:right;
 	width:450px;
-	margin:50px 30px 0px 0px;
+	top: 150px;
+	right:2%;
 }
 #about_me{
 	float:right;
@@ -135,37 +142,53 @@ ul#links a {
 	padding:10px;*/
 	background-color:rgb(0,0,0);
 	color:rgb(300,300,300);
-/*	box-shadow: -2px 2px 8px #c1c1c1;
-	position:relative;
-	float:right;
-	right:40px;
-	margin-top:30px;
-	height:350px;
-	width:500px;*/
-	height:400px;
+	height:700px;
 	width:525px;
 }
 
 #about_me img{
-	display:inline-block;
 	position:relative;
-	height:55%;
-	width:40%;
-	border-radius:20%;
+	top:100px;
+	left: 33.333%;
+	height:200px;
+	width:200px;
+	border-radius:50%;
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1115px) {
 	nav li{
 		font-size: 1.2em;
 	}
 
 	#big_name{
+		bottom:5px;
 		position:relative;
-		font-size: 2.3em;
+		font-size: 2.8em;
 		margin: 15px 5px;
+	}
+
+	nav{
+	width:460px;
+	}
+
+	nav li{
+	width: 150px;
 	}
 }
 
+@media screen and (max-width: 965px) {
+	#big_name{
+		font-size: 2.3em;
+	}
 
+	nav li{
+	font-size:1.1em;
+	padding-top:25px;
+	}
+
+	.left{
+		left:50px;
+	}
+}
 
