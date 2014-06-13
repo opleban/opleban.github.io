@@ -7,27 +7,29 @@ body{
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.1em;
 	line-height:1.4;
-	min-width:861px;
+	min-width:870px;
 }
 
 header#topbar{
 	font-family: 'Open Sans', Arial, sans-serif;
-	display:inline-block;
-	background-color:rgba(275,275,275,0.8);
+	display:block;
+	background-color:rgba(275,275,275,0.9);
 	width:100%;
-	min-width:860px;
+	min-width:870px;
 	height:80px;
+	z-index:100;
+	margin-bottom:5%;
 }
 
 nav{
 	float:left;
 	display:inline-block;
-	width:535px;
+	width:580px;
 }
 
 nav li{
 	box-sizing:border-box;
-	width: 175px;
+	width: 185px;
 	height:80px;
 	display:inline-block;
 	padding:20px 10px;
@@ -66,6 +68,7 @@ nav a:hover{
 	right-margin:100px;
 	margin:auto;
 	vertical-align: center;
+	font-weight:bold;
 }
 
 #title{
@@ -74,14 +77,17 @@ nav a:hover{
 }
 
 #main{
-	border-radius:7%;
+	position:relative;
+	display:block;
+	border-radius:10%;
 	padding: 2%;
 	box-sizing:border-box;
 	background-color:rgba(275,275,275,0.8);
 	box-shadow: -2px 2px 12px #c1c1c1;
 	width:40%;
 	max-width:700px;
-	margin:5% 30%;
+	left:30%;
+
 }
 
 ul#links{
