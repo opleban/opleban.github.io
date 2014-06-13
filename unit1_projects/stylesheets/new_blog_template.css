@@ -12,10 +12,10 @@ body{
 }
 
 header#topbar{
-	font-family: 'EB Garamond', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	position:absolute;
 	display:inline-block;
-	background-color:rgba(275,275,275,0.8);
+	background-color:rgba(275,275,275,0.9);
 	width:100%;
 	min-width:861px;
 	height:80px;
