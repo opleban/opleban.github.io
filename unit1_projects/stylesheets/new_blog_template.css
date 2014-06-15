@@ -7,7 +7,7 @@ body{
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.1em;
 	line-height:1.4;
-	min-width:861px;
+	min-width:870px;
 	li
 }
 
@@ -17,19 +17,19 @@ header#topbar{
 	display:inline-block;
 	background-color:rgba(275,275,275,0.9);
 	width:100%;
-	min-width:861px;
+	min-width:870px;
 	height:80px;
 }
 
 header nav{
 	float:left;
 	display:inline-block;
-	width:535px;
+	width:580px;
 }
 
 header nav li{
 	box-sizing:border-box;
-	width: 175px;
+	width: 185px;
 	height:80px;
 	display:inline-block;
 	padding:20px 10px;
