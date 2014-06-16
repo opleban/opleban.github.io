@@ -1,52 +1,3 @@
-<!-- 
-- Explain when, why, and how to use classes
-- Explain how data structures and classes can model a real-world object
-Pick something you would like to model and teach others when to use instance variables, instance methods, etc. 
-
-Object-Oriented Programming
-	Everything in Ruby is an object including classes, which are subclasses of modules which are subclasses of object.
-	Ruby implements object oriented programming through its use of classes and instances
-
-	Classes in Ruby and in other object-oriented programming (OOP) languages are essentially blueprints for creating objects with a similar set of properties and methods. Classes in OOP are an important part enabling the application of DRY (Don't Repeat Yourself) principles in code. The objects constructed following the blueprint described in a class are called instances. Class instances can be created by calling the class constructor method, in lieu of explicitely declaring the properties and methods 
-
-	Taco Class
-	Ruby makes it easy to create a class or modify an existing class. I'll demonstrate the ease in which you can go about creating classes by creating a simple class meant to loosely model a real-life taco.
-
-	class Taco
-
-#constructor method accepts tortilla and ingredients as arguments 
-		def initialize(tortilla, *ingredients) and assigns those arguments to instance variables.
-			@tortilla = tortilla
-			@ingredients = *ingredients
-			puts "I'm a taco!" 
-		end
-
-#instance method describe is a method callable by each Taco instance and returns a string describing the constituent parts of the taco.
-		def describe()
-			description = "I'm a tasty taco made with a #{@tortilla} tortilla, "
-
-			@ingredients.each do |ingredient| 
-				ingredient == @ingredients.last ? description << "and #{ingredient}." : description << "#{ingredient}, "
-			end
-			return description
-		end 
-	end
-
-	Each instance of the Taco class is created with a similar set of properties and methods. In the example above, I created the Taco class. The constructor method "initialize" provides the instructions for the creation of each instance. In my model of the taco, a taco consists of an object with instance variables @tortilla and @ingredients. The "@" indicates that they are instance variables. By default they are accessible within the scope of each Taco instance. Each taco instance also has an instance method Taco#describe. The "#"-notation indicates that "describe" is an instance method of the Taco class.
-
-	chipotle = Taco.new("flour", "chicken", "fajitas", "mild salsa")
-	=> I'm a taco!
-
-	I can now have my chipotle object call the instance method describe.
-
-	puts chipotle.describe()
-	=> I'm a tasty taco made with a flour tortilla, chicken, fajitas, and mild salsa.
-
-	Above I created, an instance of Taco, chipotle by calling Class#new and passed in the required arguments, flour (for flour tortillas) and the remaining arguments as the ingredients. Class#new is an instance method for all instances of the class Class which constructs instances of the class depending on the constructor method defined in the class. My instance, chipotle, then calls Taco#describe, which returns a statment with a description of the newly created taco. 
-
- -->
-
-
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -72,6 +23,8 @@ Object-Oriented Programming
 				<p>Classes in Ruby and in other object-oriented programming (OOP) languages are essentially blueprints for creating objects with a similar set of properties and methods. Classes in OOP are an important part enabling the application of DRY (Don't Repeat Yourself) principles in code. The objects constructed following the blueprint described in a class are called instances. Class instances can be created by calling the class constructor method, in lieu of explicitely declaring the properties and methods.</p>
 
 				<h4>Taco Class</h4>
+
+				<div class="center"><img src="../images/chipotle_taco.png" alt="A taco - deconstructed"></div>
 				<p>Ruby makes it easy to create a class or modify an existing class. I'll demonstrate the ease in which you can go about creating classes by creating a simple class meant to loosely model a real-life taco.</p>
 
 <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
