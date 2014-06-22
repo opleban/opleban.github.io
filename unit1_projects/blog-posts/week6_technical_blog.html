@@ -1,0 +1,105 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/new_blog_template.css"/>
+		<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sunburst"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>		
+		<title></title>
+	</head>
+	
+	<body>
+		<header id="topbar"> 
+				<nav>
+					<ul>
+						<a href="../../index.html"><li id="blue">About me</li></a>
+						<a href="week1_technical_blog.html"><li>Tech Blog</li></a>
+						<a><li id="yellow">Cultural Blog</li></a>
+					</ul>
+				</nav>
+		</header>		
+		<div id="content_area">
+			<h3>Functional Programming</h3>
+			<article>
+				<p>Object-Oriented Programming (OOP), as you would expect from the name, is based around designing and managing the interaction of objects. These "objects" are data types which contain various properties (state) and attributes (behaviors). Object-Oriented Programming is a way of modeling code based on concepts that are intuitive and easily comprehensible for most people since it in many ways it reflects our interactions in the non-virtual world.  Looking at the programming landscape more broadly, OOP is generally heralded as an example of an imperative approach to programming. Imperative programming describes a set of instructions to be followed. In OOP these instructions are uusally done vis-a-vis classes, instances, and various other object types which call and are called by methods. </p>
+
+				<h4>Functional Programming i.e. Passive Aggresive Programming</h4>
+				<p>Whereas, OOP relies on the interaction between objects and changes to the internal states of objects and the environment external to a function, functional programming emphasizes the use of functions whose results are largely self-contained and rely entirely on their inputs. Instance variables, class variables, constants, global variables, none of these things exist in purely functional programming. The only variables that are accessible are local variables and even those are largely eschewed. Since functions rely entirely on their inputs, their effects are entirely self-contained and hence don't cause any "side effects" on the external programming environment. OOP relies heavily on these side effects. In OOP, methods modify not only their inputs but also their external environment through their effects on variables external to the specific method call.</p>
+
+				<h4>First Class Functions</h4>
+				<p>In most OOP languages, objects constitute first-class citizens, in that they can be passed into and returned from methods, and hence, constitute first-class citizens or values. On a side-note, I find the linguistic decision to analogize programming elements and attributes to a very political concept -citizenship -to be extremely fascinating.  I also find the analogy to be exceedingly apt. As would be expected in a programming paradigm where the focus is on functions and descriptions One feature often tied to functional programming is the concept of first-class functions. In this case, functions being fist-class citizen, just as variables, means that they can be utilized in the all the ways that a variable would. In particular, this means that functions can be called as arguments in other functions and also be returned from a function as well. Whereas this concept is prominently tied to functional programming, these concepts are found in both JavaScript (prototype-based language) and Ruby (an ostensibly OOP language).</p>
+
+				<p class="code_example_caption">
+			This example demonstrates the use of functions as a first-class function in Ruby:</p>
+
+			<figure>
+				<pre class="prettyprint linenums">
+	def test
+		"Hello from test"
+	end
+
+	def test_vehicle(func)
+		return func
+	end
+
+	test_vehicle(test)
+	=> "Hello from test"
+				</pre>
+			</figure>
+
+				<p>As the example shows, above, I was able to pass the method "test" as an argument into another function "test_vehicle" and return it.  Another example of this are also found in Ruby with its use of procs, lambdas and anonymous functions.</p>
+
+				<h4>Iteration through Recursion</h4>
+
+				<p>Whereas the imperative programming often rely on while- and for-loops for iteration and repeated operations, functional language with its eschewal of variable assignments and side-effects, often utilize recursions to meet these same ends.</p>
+				<p> This figure shows a simple countdown function written in imperative form:</p>
+
+				<figure>
+					<pre class="prettyprint linenums">
+	def countdown (n)
+		x = n
+		while x >= 0
+			puts x
+			x -= 1
+		end
+	end
+
+	# Output 
+		10
+		9
+		8
+		7
+		6
+		5
+		4
+		3
+		2
+		1
+		0
+		=> nil
+					</pre>
+
+				<p>This figures shows a different method with the same output written in a recursive, more functional form:</p>
+				<figure>
+					<pre class="prettyprint linenums">
+	def recursive_countdown(n)
+		puts n
+		recursive_countdown (n-1) if n > 0
+	end
+					</pre>
+				</figure>
+				<p>As briefly mentioned before, procs, lambdas, and blocs are also programming concepts often tied to functional programming and all of which are available in Ruby. However, I will delay speaking any further on those concepts until I have a firmer grasp on them.
+			</article>
+
+
+			
+			<footer>Created by Ori Jonathan Pleban. If you have any questions, feel free to <a href="mailto:opleban@gmail.com">email me!</a>
+			</footer>
+		</div>
+
+		<aside> 
+		</aside>
+	</body>
+	
+</html>
