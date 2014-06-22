@@ -35,7 +35,7 @@
 				<p>In most OOP languages, objects constitute first-class citizens, in that they can be passed into and returned from methods, and hence, constitute first-class citizens or values. On a side-note, I find the linguistic decision to analogize programming elements and attributes to a very political concept -citizenship -to be extremely fascinating.  I also find the analogy to be exceedingly apt. As would be expected in a programming paradigm where the focus is on functions and descriptions One feature often tied to functional programming is the concept of first-class functions. In this case, functions being fist-class citizen, just as variables, means that they can be utilized in the all the ways that a variable would. In particular, this means that functions can be called as arguments in other functions and also be returned from a function as well. Whereas this concept is prominently tied to functional programming, these concepts are found in both JavaScript (prototype-based language) and Ruby (an ostensibly OOP language).</p>
 
 				<p class="code_example_caption">
-			This example demonstrates the use of functions as a first-class function in Ruby:</p>
+			This example demonstrates the use of functions as a higher-order value in Ruby:</p>
 
 			<figure>
 				<pre class="prettyprint linenums">
@@ -52,7 +52,7 @@
 				</pre>
 			</figure>
 
-				<p>As the example shows, above, I was able to pass the method "test" as an argument into another function "test_vehicle" and return it.  Another example of this are also found in Ruby with its use of procs, lambdas and anonymous functions.</p>
+				<p>As the example shows, above, I was able to pass the method "test" as an argument into another function "test_vehicle" and return it.  While, in Ruby, there aren't first-class functions. You aren't able to define a method within a method, as you would be able to do in JavaScript. However, Ruby features procs, lambdas, and blocks which provide most the remaining functionality of first-class functions.. </p>
 
 				<h4>Iteration through Recursion</h4>
 
