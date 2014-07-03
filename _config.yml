@@ -1,0 +1,12 @@
+# Site settings
+title: Change I Can Digest
+email: opleban@gmail.com
+description: "The personal website for OJP."
+baseurl: ""
+url: ""
+twitter_username: opleban
+github_username:  opleban
+
+# Build settings
+markdown: kramdown
+permalink: pretty

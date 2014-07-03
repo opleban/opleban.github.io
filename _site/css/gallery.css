@@ -1,0 +1,300 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+}
+
+#content_area{
+	font-size:3.0em;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+li h1 {
+	color:white;
+	margin-left:30px;
+}
+
+a         { color: #2a7ae2; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline; }
+a:visited { color: #205caa; }
+
+#winding{
+	background-image: url(../assets/gallery/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 90%;
+	height:800px;
+}
+
+#panorama{
+	background-image: url(../assets/gallery/1_panorama.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:800px;
+}
+
+#winter{
+	background-image: url(../assets/gallery/OuledAliSnowPanorama.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 30%;
+	height:800px;
+}
+
+#watertrickle{
+	background-image: url(../assets/gallery/BniHassanAitBlqasmWaterfall.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:800px;
+}
+
+#lksarlkbir{
+	background-image: url(../assets/gallery/LksarLkbirStitchPreSwim.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:800px;
+}
+
+#sheep{
+	background-image: url(../assets/gallery/2_sheep.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 45%;
+	height:800px;
+}
+
+#carcass{
+	background-image: url(../assets/gallery/SheepCarcassPanorama.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:800px;
+}
+
+#kidsInWinter{
+	background-image: url(../assets/gallery/KidsInTheWinterPanorama.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:800px;	
+}
+
+#cold{
+	background-image: url(../assets/gallery/cold.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 50%;
+	height:800px;	
+}
+
+#cold_teleboutique{
+	background-image: url(../assets/gallery/winter_teleboutique.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 50%;
+	height:800px;	
+}
+
+#teleboutique{
+	background-image: url(../assets/gallery/teleboutique.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 40%;
+	height:800px;		
+}
+
+#abandoned{
+	background-image: url(../assets/gallery/3_abandoned.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 40%;
+	height:800px;	
+}
+
+#goats{
+	background-image: url(../assets/gallery/goats.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 10%;
+	height:800px;		
+}
+
+#stove{
+	float:left;
+	background-image: url(../assets/gallery/stove.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:45%;
+	background-position:0 40%;
+	height:800px;		
+	width:45%;
+}
+
+#charcoal{
+	float:right;
+	background-image: url(../assets/gallery/charcoal.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:45%;
+	background-position:right;
+	height:800px;	
+	width:45%;
+}
+
+#double_image{
+	height:800px;
+	width:100%;
+}
+
+#aitsaada{
+	background-image: url(../assets/gallery/aitSaada.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0 40%;
+	height:800px;			
+}
+
+.filler{
+	height:200px;
+	background-color:#676767;
+}
+
+
+.white_filler{
+	height:80px;
+	background-color:white;
+}
+
+/* Post Header */
+.post-header {
+	position:relative;
+	top:100px; 
+	left: 30px;
+}
+
+.post-header h1 {
+  font-size: 42px;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.post-header .meta {
+  font-size: 15px;
+  color: #818181;
+  margin-top: 5px;
+}
+
+/* Site footer */
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  margin-bottom: 15px;
+}
+
+.site-footer .column { float: left; margin-bottom: 15px; }
+
+.footer-col-1 {
+  width: 270px; /*fallback*/
+  width: -webkit-calc(35% - 10px);
+  width: -moz-calc(35% - 10px);
+  width: -o-calc(35% - 10px);
+  width: calc(35% - 10px);
+  margin-right: 10px
+}
+.footer-col-2 {
+  width: 175px; /*fallback*/
+  width: -webkit-calc(23.125% - 10px);
+  width: -moz-calc(23.125% - 10px);
+  width: -o-calc(23.125% - 10px);
+  width: calc(23.125% - 10px);
+  margin-right: 10px
+}
+.footer-col-3 {
+  width: 335px; /*fallback*/
+  width: -webkit-calc(41.875%);
+  width: -moz-calc(41.875%);
+  width: -o-calc(41.875%);
+  width: calc(41.875%);
+}
+
+.site-footer ul { list-style: none; }
+
+.site-footer li,
+.site-footer p {
+  font-size: 15px;
+  letter-spacing: -.3px;
+  color: #828282;
+}
+
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+@media screen and (max-width: 750px) {
+
+  .footer-col-1 { width: 50%; }
+
+  .footer-col-2 {
+    width: 45%; /*fallback*/
+    width: -webkit-calc(50% - 10px);
+    width: -moz-calc(50% - 10px);
+    width: -o-calc(50% - 10px);
+    width: calc(50% - 10px);
+    margin-right: 0;
+  }
+
+  .site-footer .column.footer-col-3 {
+    width: auto;
+    float: none;
+    clear: both;
+  }
+
+}
+@media screen and (max-width: 600px) {
+
+  .wrap { padding: 0 12px; }
+
+  .site-footer .column {
+    float: none;
+    clear: both;
+    width: auto;
+    margin: 0 0 15px; }
+
+}
+

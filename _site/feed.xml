@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Change I Can Digest</title>
+    <description>The personal website for OJP.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 02 Jul 2014 23:19:51 -0700</pubDate>
+    <lastBuildDate>Wed, 02 Jul 2014 23:19:51 -0700</lastBuildDate>
+    <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>Technical Week 7: SQL and NoSQL databases</title>
+        <description>&lt;p&gt;![database symbol] (/assets/database.png)&lt;/p&gt;
+
+&lt;h3 id=&quot;sql&quot;&gt;SQL&lt;/h3&gt;
+&lt;p&gt;SQL databases are a form of relational database systems. A SQL database keeps track of data based on relationships organized into tables. SQL or Structured Query Language, refers to the lanaguage used to query the database for information. SQL database requires you to predefine a schema before inserting any piece of information into the database. While this generally makes SQL databases much more rigid and difficult to modify, it also helps maintain data consistency and accuracy. It also reduces data redundancy by ensuring that each piece of information in the database appear only once. This ensures data accuracy and helps to limit the size of databases by avoiding the needless duplication of files across the same database.&lt;/p&gt;
+
+&lt;h3 id=&quot;nosql&quot;&gt;NoSQL&lt;/h3&gt;
+&lt;p&gt;NoSQL, Not only SQL, is a newer alternative to SQL relational databases management systems that come in a variety of implementations and generally provide database solutions that are more easily scalable with better performance. As opposed to a relational database, NoSQL stores information in its system in key-value pairs, doen’t require you to predetermine a schema before inserting data. As a result, NoSQL is better able to handle more complex and varied data types that aren’t as easily inserted into a SQL schemas. While this allows you to more quickly and easily insert information, it can also sacrifices the consistency and compactness of a relational database system, depending on the implementation. NoSQL systems are better able to scale as well since its more easy to spread your database over multiple servers than with SQL, which generally requires you to store all of your information on a single server.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-thoughts-of-sql-vs-nosql&quot;&gt;My thoughts of SQL vs. NoSQL&lt;/h3&gt;
+&lt;p&gt;As a result of the greater flexibility and ease of scalability, many big data organizations such as Facebook, Google, and LinkedIn utilize NoSQL databases. At this point, I don’t have enough experience with SQL or NoSQL to have formed a strong opinions on either system. However, I have been pleasantly surprised so far with my experience using SQL queries to extract information from the database. I find the syntax to be intuitive but still specific enough to extract whatever information I may need from a database. Although, I anticipate that using pre-defined schemas could feel somewhat limiting at first, particularly as I still develop my understanding of the various relationships (i.e. one-to-one, one-to-many, and many-to-many), I do appreciate the act of pre-defining a schema could be a useful exercise in of itself to gain better insight into the information I intend to keep track of in whatever application I may develop that will utilize SQL databases.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:48:00 -0700</pubDate>
+        <link>/technical/2014/07/01/SQL-NoSQL/</link>
+        <guid isPermaLink="true">/technical/2014/07/01/SQL-NoSQL/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Week 7: Values and the Stereotype Threat</title>
+        <description>&lt;h3 id=&quot;values&quot;&gt;Values&lt;/h3&gt;
+
+&lt;p&gt;Achievement, ambition, merit, self-reliance, accountability, recognition, effectivness and persistence.&lt;/p&gt;
+
+&lt;p&gt;If I had to whittle down this list of values, even further, I could probably settle with self-reliance and persistence. While I definitely do understand theimportance of more outward looking values such as community, family, and friendship, after spending two years living in a rural village in Morocco, I have a much keener appreciation for the more individual-oriented values. I learned to be more self-reliant in ensuring my needs were met under adverse conditions. Persistence and self-reliance enabled me to be more adventurous and ambitious in pursuing my objectives.&lt;/p&gt;
+
+&lt;h3 id=&quot;stereotype-threat&quot;&gt;Stereotype Threat&lt;/h3&gt;
+
+&lt;p&gt;I think its extremely important in general to be self-aware of your internal emotional state. Particularly, when you feel threatened by others in a significant way.  The stereotype threat is particularly pernicious since it plays upon sometimes unacknowledged biases and prejudces and hence can be difficult to recognize both by the offender and victim of the stereotype. Overall, awareness of the stereotype threat can only help in mediating it by providing an opportunity for you to communicate your discomfort in an appropriate and effective way to those around you.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:43:00 -0700</pubDate>
+        <link>/cultural/2014/07/01/Values-And-Stereotype/</link>
+        <guid isPermaLink="true">/cultural/2014/07/01/Values-And-Stereotype/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 6: Functional Programming in Ruby -a short introduction</title>
+        <description>&lt;p&gt;Object-Oriented Programming (OOP), as you would expect from the name, is based around designing and managing the interaction of objects. These “objects” are data types which contain various properties (state) and attributes (behaviors). OOP is a way of modeling programs based on concepts that are intuitive and easily comprehensible for since it reflects our interactions in the non-virtual world.&lt;/p&gt;
+
+&lt;p&gt;Looking at the programming landscape more broadly, OOP is generally heralded as an example of an imperative approach to programming. The imperative approach provides a set of instructions to be followed, a recipe of sorts to produce the desired outcome. In OOP these instructions are uusally done vis-a-vis classes, instances, and other object types which call and are called by methods.&lt;/p&gt;
+
+&lt;h3 id=&quot;functional-programming-ie-passive-aggresive-programming&quot;&gt;Functional Programming i.e. Passive Aggresive Programming&lt;/h3&gt;
+
+&lt;p&gt;Whereas, OOP relies on the interaction between objects and changes to the internal states of objects and the environment external to a function, functional programming emphasizes the use of functions whose results are largely self-contained and rely entirely on their inputs. Instance variables, class variables, constants, global variables, none of these things exist in purely functional programming. The only variables that are accessible are local variables, and even variable assignments are largely eschewed. Since functions rely entirely on their inputs, their outcomes are self-contained and hence don’t generally cause any “side effects” on the external programming environment. OOP relies heavily on these side effects. In OOP, methods modify not only their inputs but also their external environment through their effects on variables external to the specific method call.&lt;/p&gt;
+
+&lt;p&gt;Functional programming, a subset of the declarative approach (contrast to imperative) is based around writing code that describe the problem meant to be solved providing a framework for solving them.&lt;/p&gt;
+
+&lt;h3 id=&quot;first-class-functions&quot;&gt;First Class Functions&lt;/h3&gt;
+
+&lt;p&gt;In most OOP languages, objects constitute first-class citizens, in that they can be passed into and returned from methods, and hence, constitute first-class citizens or values. On a side-note, I find the linguistic decision to analogize programming elements and attributes to a very political concept -citizenship -to be extremely fascinating.  I also find the analogy to be exceedingly apt. As would be expected in a programming paradigm where the focus is on functions and descriptions One feature often tied to functional programming is the concept of first-class functions. In this case, functions being fist-class citizen, just as variables, means that they can be utilized in the all the ways that a variable would. In particular, this means that functions can be called as arguments in other functions and also be returned from a function as well. Whereas this concept is prominently tied to functional programming, these concepts are found in both JavaScript (prototype-based language) and Ruby (an ostensibly OOP language).&lt;/p&gt;
+
+&lt;p&gt;This example demonstrates the use of functions as higher-order values in Ruby:
+&amp;lt;% highlight ruby %&amp;gt;
+def test
+  “Hello from test”
+end&lt;/p&gt;
+
+&lt;p&gt;def test_vehicle(func)
+  return func
+end&lt;/p&gt;
+
+&lt;p&gt;test_vehicle(test)
+=&amp;gt; “Hello from test”
+&amp;lt;% endhighlight %&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;As the example shows, above, I was able to pass the method “test” as an argument into another function “test_vehicle” and return it.  While, in Ruby, there aren’t first-class functions. You aren’t able to define a method within a method, as you would be able to do in JavaScript. However, Ruby features procs, lambdas, and blocks which provide most the remaining functionality of first-class functions..&lt;/p&gt;
+
+&lt;h3 id=&quot;iteration-through-recursion&quot;&gt;Iteration through Recursion&lt;/h3&gt;
+
+&lt;p&gt;Whereas the imperative programming often rely on while- and for-loops for iteration and repeated operations, functional language with its eschewal of variable assignments and side-effects, often utilize recursions to meet these same ends.&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;This figure shows a simple countdown function written in imperative form:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;% highlight ruby %&amp;gt;
+def countdown (n)
+  x = n
+  while x &amp;gt;= 0
+    puts x
+    x -= 1
+  end
+end&lt;/p&gt;
+
+&lt;h1 id=&quot;output&quot;&gt;Output&lt;/h1&gt;
+&lt;p&gt;10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+=&amp;gt; nil
+&amp;lt;% endhighlight %&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;This figures shows a different method with the same output written in a recursive, more functional form:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;% ruby highlight %&amp;gt;
+def recursive_countdown(n)
+  puts n
+  recursive_countdown (n-1) if n &amp;gt; 0
+end
+&amp;lt;% endhighlight %&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;As briefly mentioned before, procs, lambdas, and blocks are also programming concepts often tied to functional programming and all of which are available in Ruby. However, I will delay speaking any further on those concepts until I have a firmer grasp on them.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:39:00 -0700</pubDate>
+        <link>/technical/2014/07/01/Functional-Programming/</link>
+        <guid isPermaLink="true">/technical/2014/07/01/Functional-Programming/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Week 5: Pairing and Feedback</title>
+        <description>&lt;h3 id=&quot;pairing&quot;&gt;Pairing&lt;/h3&gt;
+
+&lt;p&gt;I always feel a certain sense of nervousness before each pairing session. Working on any challenge as a pair, or any other group setting adds an extra layer of complexity. Not only do I need to concentrate on solving the challenge, but I also need to communicate my inner thought processes to my partner. Sometimes, I feel like that latter task gets in the way of the first task. I spend too much time trying to clearly communicate with my partner and not enough time thinking critically about how to approach the problems. It also inhibits my usual process of trial and error and willingness to experiment with methods or approaches that I may not yet feel completely comfortable with for fear of embarassment.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, working with someone else provides a variety of benefits as well. I’m exposed to different ways of approaching a problem than I would otherwise take on my own. The back and forth discussion with my partner on basic concepts, also provides an opportunity to clarify my understanding of them, both in circumstances where I am able to explain a concept to my partner, and when I am the one that can benefit from clarification.  The most important benefit, in my mind, is that pairing with someone else, having another set of eyes, forces me to follow best practices when approaching the coding challenges. On my own, I may be tempted to jump straight into coding or testing out approaches in IRB, whereas when I’m pairing with someone else, I need to write good pseudocode before starting to write code so that both of us know the general outline of what the code will eventually look like.&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
+
+&lt;p&gt;I wholly understand that receiving feedback is a very important part of the learning process. Feedback is a large part of why I chose to attend Dev Bootcamp over studying on my own or signing up for an online only program. I wanted to be in an environment where I could receive a sense of my progress and quickly be able to solve any problems that may arise through constructive feedback. Thankfully, the feedback I have received so far has been mostly positive, but I definitely want to be prepared for when I do receive negative feedback so that I know how to properly process the feedback and make any necessary corrections.&lt;/p&gt;
+
+&lt;p&gt;The most difficult part of feedback for me has been providing constructive feedback to others. All of my pairing sessions so far have been positive, so I haven’t been in a position yet where I have been forced to give negative constructive feedback. But I do have some anxiety nonetheless, about needing to provide feedback to others in situations where not everything was copacetic.  That being said, being able to read and provide feedback to others on their feedback (very meta!), has been a great opportunity for me to exercise my feedback-giving muscles.&lt;/p&gt;
+
+&lt;p&gt;Overall, although it does cause me a certain sense of anxiety, I appreciate the opportunity to work with others and look forward to being able to pair with people in person rather than just over Google Hangout.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:22:00 -0700</pubDate>
+        <link>/cultural/2014/07/01/Pairing-And-Feedback/</link>
+        <guid isPermaLink="true">/cultural/2014/07/01/Pairing-And-Feedback/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 4: Looping with Ruby</title>
+        <description>&lt;h2 id=&quot;looping-with-ruby&quot;&gt;Looping with Ruby&lt;/h2&gt;
+
+&lt;p&gt;Not unexpectedly, Ruby provides numerous control flow commands for looping. I’ll discuss the various options available and when you should use them.&lt;/p&gt;
+
+&lt;h3 id=&quot;loopend&quot;&gt;loop…end&lt;/h3&gt;
+&lt;p&gt;Loop is a simple command that will create an infinite loop. As such, when using loop you’ll want to include a “break-if” statement that stops the loop when a certain condition is met.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;loop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; 
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; 
+&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see from the example code above. The loop repeats until the break condition, x = 5, is met. Without the break condition, this would be an infinite loop. Loop is simple to use, but in general there doesn’t are not any situations where loop..end is preferable to the other options provided by loop, particularly since Ruby also features “while” loops and “until” loops. “Loop do..end” may be preferable in cases where you’d want to implement an infinite loop.&lt;/p&gt;
+
+&lt;h3 id=&quot;whileend&quot;&gt;while..end&lt;/h3&gt;
+
+&lt;p&gt;A “while” loops will execute a block of code while a condition evaluates as true. The “while” condition is evaluated each time the code block is executed at the beginning loop.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The code above achieves the same end as the previous “loop..end” example. A “while” loop can do everything “loop do..end” canod and more. Moreover, “while” loop is more readable than “loop do..end” because the condition under which the code block is executed is more clearly stated at the top of the loop. If you wanted to break the “while” loop even though the “while” condition still evaluates to true, a break statement can also be added within the code block just as with “loop do..end” which will break out of the loop early. Still, you better be careful to choose a condition that will eventually evaluate as false so that an infinite loop is not created (unless that’s what you want). “While” loops are useful when you want to execute a code block an indeterminate number of times until a certain condition is met. If you would like your code block to execute a set number of times, you should perhaps consider using one of Ruby’s iterator methods such as “&lt;a href=&quot;http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-times&quot;&gt;times&lt;/a&gt;”, “&lt;a href=&quot;http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-upto&quot;&gt;upto&lt;/a&gt;”,”&lt;a href=&quot;http://www.ruby-doc.org/core-1.9.3/Integer.html#method-i-downto&quot;&gt;downto&lt;/a&gt;”, or “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Range.html#method-i-step&quot;&gt;step&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;h3 id=&quot;untilend&quot;&gt;until..end&lt;/h3&gt;
+
+&lt;p&gt;“Until..end” is the opposite of a “while” loop. As you would expect from its name, “until” will loop through code block until a certain condition evalutes as true. It is equivalent to using a “while” loop with a negated conditioned (!condition).&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;until&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Nothing unexpected here. Personally, I default to using a “while” loop.  It may make your code more readable to express the loop condition using “until” and a positive condition rather than “while” a negated condition.&lt;/p&gt;
+
+&lt;p&gt;Both  “while” and “until” loops can be used as single line modifier statement. This can be useful when you want to concisely call a method or single-line command repeatedly under certain conditions.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;importantMethod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;	
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;importantMethod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Hello&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Hello&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Hello&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Hello&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I will mention briefly that while Ruby also features a “for” loop which allows you to loop through each item in a collection, in almost all cases its better to use one of Ruby’s numerous iterator methods. Most prominently: “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each&quot;&gt;each&lt;/a&gt;, “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-map&quot;&gt;map&lt;/a&gt;”, and “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-select&quot;&gt;select”&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:14:00 -0700</pubDate>
+        <link>/technical/2014/07/01/Looping-With-Ruby/</link>
+        <guid isPermaLink="true">/technical/2014/07/01/Looping-With-Ruby/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Week 4: The virtues of being less WEIRD</title>
+        <description>&lt;p&gt;My experience within the tech community, to date, has largely been as a consumer of products and services. As a member of the Western Educated Industrialized Rich Democratic (&lt;a href=&quot;http://www.scientificamerican.com/podcast/episode/psychology-studies-biased-toward-we-10-08-07/&quot;&gt;WEIRD&lt;/a&gt;)population, I’ve been more than satisfied by the wide array of choices available to me. There are very few aspects of my day-to-day experience, where &lt;a href=&quot;https://www.youtube.com/watch?v=szrsfeyLzyg&quot;&gt;there’s an app for that”&lt;/a&gt; doesn’t apply to my lifestyle. From Facebook, which provides a way for me to keep in constant touch with my very extended social circle to the Chipotle apps which makes remotely ordering a burrito for lunch/dinner that much more easy, to name just a couple. I’m spoiled by the plethora of products and services that are ready to meet any possible combintation of my real/imagined wants and desires.&lt;/p&gt;
+
+&lt;p&gt;That being said, I’m keenly aware that other groups are not as well-served by the current state of affairs. In the &amp;lt;/a href=”http://miter.mit.edu/the-unexotic-underclass/”“&amp;gt;The Unexotic Underclass&amp;lt;/a&amp;gt;” for &lt;a href=&quot;http://miter.mit.edu/&quot;&gt;The MIT Entrepreneurship Review&lt;/a&gt;, CZ Nameka argues that entrepreneurs and the tech industry as a whole has lavished too little attention on the what she terms the “unexotic” underclasses. She uses the term “unexotic” as a synonym for mundane, uninteresting, seemingly unworthy of attention (or investment) by the tech entrepreneurs or society writ-large. The working poor, single mothers,the long-term unemployed, veterans.&lt;/p&gt;
+
+&lt;p&gt;Nameka contrasts these unexotic, ignored classes to the exotic underclasses whose plight are often publicized and lavished attention upon. As she puts it: “The exotic underclass are people who live in the emerging and third world countries that happen to be in fashion now -– Kenya, Bangladesh, Brazil, South Africa. The  exotic underclass are poor Black and Hispanic children (are there any other kind?) living in America’s urban ghettos.”&lt;/p&gt;
+
+&lt;p&gt;To a large extent I agree with Nameka’s thesis, and I’ll spare you any further attempt to summarize her thoughtful and insightful article and suggest you read it for &lt;a href=&quot;http://miter.mit.edu/the-unexotic-underclass/&quot;&gt;yourself&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I agree with most of her points and recognize that I’m also guilty of exactly the inclination she derides. As a former Peace Corps volunteer, I know first hand the allure of the exotic, having spent two years living in a small village in the mountains of Morocco.  That being said, I also have a good deal of first-hand experience working to address the problems faced by many of the groups that make up the “unexotic” underclass. In my capacity as a caseworker at a Senate office, I was essentially a conduit between the federal government and California constituents providing assistance to a wide variety of groups in their interactions with the federal government. Veterans seeking care from the Department of Veteran Affairs, single mothers seeking Supplemental Security Income from Social Security, immigrants looking to become naturalized US citizens. Symptomatic of the general lack of attention given to these groups, many of them turn to their congressional representatives for assistance because they have no where else to turn.&lt;/p&gt;
+
+&lt;p&gt;In my mind, part of the solution for the tech community to the aforementioned problems lies not only in mobilizing more time, money and attention to these problems, but also in broadening the make-up of the tech community. It’s no secret that the tech industry has a &lt;a href=&quot;http://bits.blogs.nytimes.com/2014/02/02/techs-diversity-problem-is-apparent-as-early-as-high-school/&quot;&gt;diversity&lt;/a&gt; &lt;a href=&quot;http://www.npr.org/blogs/alltechconsidered/2014/05/29/317024113/googles-white-male-heavy-staff-underlines-techs-diversity-problem&quot;&gt;problem&lt;/a&gt;. In addition to helping to alleviate a variety of other well publicized&lt;a href=&quot;http://www.slate.com/blogs/future_tense/2013/03/25/adria_richards_her_firing_online_harassment_show_how_sexual_harassment_endures.html&quot;&gt;problems&lt;/a&gt; currently plaguging the industry, providing more avenues of entry to the tech industry for people from different ethnic, economic, and educational background will make it more likely that the tech industry will be responsive to concerns from constituencies outside of the “WEIRD” community.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 12:02:00 -0700</pubDate>
+        <link>/cultural/2014/07/01/WEIRD/</link>
+        <guid isPermaLink="true">/cultural/2014/07/01/WEIRD/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 3: Popularity as a virtue -JavaScript at a glance</title>
+        <description>&lt;h2 id=&quot;what-is-javascript&quot;&gt;What is JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;JavaScript is an object-oriented programming language and the main scripting language used in web browsers. JavaScript was originally created for Netscape 2 back in 1996 and not much later gained supported by Microsoft in Internet Explorer 3.0. It is now the de facto king of scripting language used in all major web browsers. Part of its main appeal and the impetus for its development is JavaScript’s client-side scripting. As opposed slower server-side scripting, it allows for more responsive, dynamic webpages that quickly react to user inputs by allowing processing to occur locally within the web browser rather than remotely on the server.&lt;/p&gt;
+
+&lt;h2 id=&quot;quantity-over-quality&quot;&gt;Quantity over Quality&lt;/h2&gt;
+
+&lt;p&gt;Questions of quality seem beside the point when talking about the popularity of JavaScript. JavaScript works. Instead, it’s popularity seems to be a great case-study of the network effect. It’s ubiquity across all internet-accessible media device, means that any developer wanting to create a product that can be accessed by the largest possible market segment will naturally gravitate towards JavaScript. Qualitative questions seem almost irrelevant. My very unscientific (read: haphazard) assessment of the tech blogosphere’s consensus regarding JavaScript indicates: Technical users don’t seem particularly happy about JavaScript, but they don’t seem overly miserable with it either. Non-technical users gravitate towards content mostly agnostic to the underlying technology. Hence, the status quo prevails.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 11:59:00 -0700</pubDate>
+        <link>/technical/2014/07/01/Javascript/</link>
+        <guid isPermaLink="true">/technical/2014/07/01/Javascript/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Cultural Week 3: Thinking Style</title>
+        <description>&lt;h2 id=&quot;thinking-style&quot;&gt;Thinking Style&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/abstract_random.jpg&quot; alt=&quot;A wall of multi-colored gum&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m an abstract random thinker. I flourish in a personalized, non-competitive learning environment and bristle under the yoke of authoritarian and dictatorial personalities. Sounds like abstract random thinkers are the main constituents of socialist communes. That being said, I take the conclusions drawn regarding abstract random thinkers with a grain of salt. While I certainly do see many of those characteristics in myself, I also know that I enjoy a healthy sense of competition. Like Concrete Sequential thinkers, I enjoy having a structured learning environment and take some solace when faced with a predictable situation.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, whether or not I’m more Abstract Random or Concrete Sequential curious, is besides the point. My focus instead is on presenting the best version to flourish in an intensive learning environment. Already, I find myself lacking in certain respects when it comes to my approach to Phase 0 material. I find myself cherry-picking the easy material and leaving the more difficult material behind. Later on, when all of the low-hanging challenges have been picked, I find my progress frustrated by a series of difficult tasks that completely blunt any mental momentum I may have built up before.&lt;/p&gt;
+
+&lt;p&gt;I am actively working on becoming better disciplined at tackling my tasks by their conceptual groupings rather than based on their ease of completion. This ties in very well with the concept of growth vs. fixed mindset. I need to start facing difficult tasks head-on and embrace these exertions as worth struggling over and learning from, rather than avoiding them and putting them off indefinitely. I need to accept failures less as validation of inadequacies and more as opportunities for growth that at the very least leave me no worse for wear.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 11:41:00 -0700</pubDate>
+        <link>/cultural/2014/07/01/Thinking-Style/</link>
+        <guid isPermaLink="true">/cultural/2014/07/01/Thinking-Style/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 2: Inline Blocks</title>
+        <description>&lt;h2 id=&quot;technical-blog-inline-vs-inline-block-style&quot;&gt;Technical Blog: Inline vs. Inline-block style&lt;/h2&gt;
+&lt;p&gt;An inline object, as the name suggests, is an object that is displayed inline. Unlike block objects, inline objects don’t take a width or height value and don’t force a line break after the object.&lt;/p&gt;
+
+&lt;div class=&quot;diagram&quot;&gt; 
+	&lt;div class=&quot;inline&quot;&gt;Inline object #1&lt;/div&gt; 
+	&lt;div class=&quot;inline&quot;&gt;Inline object #2&lt;/div&gt; 
+	&lt;div class=&quot;inline&quot;&gt;Inline object #3&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;caption&quot;&gt; Three inline objects&lt;/div&gt;
+
+&lt;div class=&quot;diagram&quot;&gt;
+	&lt;div class=&quot;block&quot;&gt;Block object #1&lt;/div&gt; 
+	&lt;div class=&quot;block&quot;&gt;Block object #2&lt;/div&gt; 
+	&lt;div class=&quot;block&quot;&gt;Block object #3&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;caption&quot;&gt;Three block objects&lt;/div&gt;
+
+&lt;p&gt;As demonstrated above the three inline objects are adjacent to one another. Although, you can add a border and margin to an inline object, these objects only affect objects that are on the same horizontal plane. Examples of elements that are inline by default, include em, span, strong, and bold. Example of default block elements are p, div, ul and ol.&lt;/p&gt;
+
+&lt;div class=&quot;diagram&quot;&gt;
+	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #1&lt;/div&gt;
+	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #2&lt;/div&gt;
+	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #3&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;caption&quot;&gt;Three similar inline-block objects&lt;/div&gt;
+
+&lt;div class=&quot;diagram&quot;&gt;
+	&lt;div class=&quot;inline_high&quot;&gt;Inline-block object #1&lt;/div&gt;
+	&lt;div class=&quot;inline_fat&quot;&gt;Inline-block object #2&lt;/div&gt;
+	&lt;div class=&quot;inline_low&quot;&gt;Inline-block object #3&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;caption&quot;&gt;Three inline-block objects with different shapes&lt;/div&gt;
+
+&lt;p&gt;Objects that are inline-block can be placed so several irregularly sized objects are adjacent to each other. Very similar to inline objects, however those objects can take on width and heights values unlike purely inline objects. Hence, inline-blocks combine many of the attributes of inline and block objects. Like inline objects, an inline-block object appears inline and doesn’t force a line break in its wake, so that one inline-block object can appear adjacent to another. However, like block objects, an inline-block object accepts a width and a height and will have an effect on all objects it may come in contact with, not just those adjacent to it.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Jul 2014 11:21:00 -0700</pubDate>
+        <link>/cultural/2014/07/01/Inline-Blocks/</link>
+        <guid isPermaLink="true">/cultural/2014/07/01/Inline-Blocks/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 1: Favorite Sites</title>
+        <description>&lt;h2 id=&quot;introductory-thoughts&quot;&gt;Introductory thoughts&lt;/h2&gt;
+
+&lt;p&gt;Oh, how times have changed! Had I written this blog entry only a year ago, the only website on this list would have been &lt;a href=&quot;http://www.tastespotting.com/&quot; target=&quot;_blank&quot;&gt;TasteSpotting&lt;/a&gt;, A reflection of my very (un)healthy interest in food.&lt;/p&gt;
+
+&lt;p&gt;As a recovering politico and minor news junkie, my choice of sites is a reflection of my current interests and day-to-day experience working in politics. The three sites that I’ll discuss below are Slate, Digg and Hype Machine. The first two definitely reflect my interest in political commentary and current events.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-on-ghostery&quot;&gt;Notes on Ghostery&lt;/h2&gt;
+
+&lt;p&gt;In general when I surf the web, I utilize &lt;a href=&quot;https://www.ghostery.com/en/&quot; target=&quot;_blank&quot;&gt;Ghostery&lt;/a&gt; an add-on to Chrome that lets you block most cookies and web trackers and also has the effect of blocking many banner and pop-up advertisement. While with Digg this made little difference in my browsing experience, with Slate and Hype Machine, I definitely did notice the difference in the amount and placement of advertisements on those pages. With that in mind, I made sure to disable Ghostery in order to get a better idea of the intended user experience.&lt;/p&gt;
+
+&lt;p&gt;Slate is an online news magazine that provides left-of-center, occasionally contrarian commentary on current events, politics and culture. Slate commentators provide an interesting take on the news and current events although not quite in the way that newer outfits like “&lt;a href=&quot;http://www.vox.com/&quot; target=&quot;_blank&quot;&gt;Vox&lt;/a&gt;” or Glenn Greenwald’s “&lt;a href=&quot;https://firstlook.org/theintercept/&quot; target=&quot;_blank&quot;&gt;The Intercept&lt;/a&gt;” which seem much more overt in their mission to &lt;i&gt;“educate”&lt;/i&gt; and &lt;i&gt;“inform”&lt;/i&gt; the public a-la &lt;a href=&quot;https://www.youtube.com/watch?v=Zabb3fxGTPk&quot; target=&quot;_blank&quot;&gt;Will McAvoy&lt;/a&gt;. Rather, Slate seems to assume a certain political savviness on the part of its readers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/slate_snapshot.png&quot; alt=&quot;Slate HomePage&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-look&quot;&gt;The Look&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;minimalist&lt;/li&gt;
+  &lt;li&gt;modern&lt;/li&gt;
+  &lt;li&gt;clean&lt;/li&gt;
+  &lt;li&gt;bright&lt;/li&gt;
+  &lt;li&gt;square&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Slate’s look, as implied by its name, seems meant to evoke a slate of rock. Very square and clean-looking. Slate like Digg, utilizes a three-column layout. Slate draws attention to the important articles by making those articles appear higher up on the webpage and has them take up greater space across an entire column, while the minor articles are given subcolumns and are generally lower on the page.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-content&quot;&gt;The Content&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;left-of-center&lt;/li&gt;
+  &lt;li&gt;political&lt;/li&gt;
+  &lt;li&gt;current&lt;/li&gt;
+  &lt;li&gt;serious&lt;/li&gt;
+  &lt;li&gt;contrarian&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While the website’s layout is relatively simple, the website designers seem more intent on organizing the content by its timeliness and click-worthiness rather than categorically by topic. Hence, the front page will often feature a wide range of topics from sports to political primaries, ensuring that there is something for everyone. This added a sense of randomness and variety to the front page. In keeping with their emphasis on timeliness, there are in fact two sections geared around late-breaking or new news items, with a section punned “Slatest” and another section titled “Most Recent”. The modern and clean look of Slate complements its focus on serious commentary. The use of negative space to define many of the borders between the articles conceptually complements Slate’s contrarian political tendencies.&lt;/p&gt;
+
+&lt;p&gt;The website doesn’t necessarily make me want to stay on it for a long time. Instead I’m more inclined to to click through and read quickly through the easily digestible articles. Slate focus isn’t necessarily on long-form journalism but is more for people such as myself with shorter attention-spans. It’s longest articles tend to be at most two to three pages.&lt;/p&gt;
+
+&lt;p&gt;The website has “sponsored content” that is clearly distinguished as such, with a teal border surrounding it. They also have a Slate store that sells branded items such as shirts and coffee mugs. Most importantly, Slate offers “&lt;a href=&quot;http://www.slate.com/plus?wpsrc=sp_all_hp-rr_promo&quot; target=&quot;_blank&quot;&gt;Slate Plus&lt;/a&gt;”. So called because, those willing to pay $5 a month or $50 a year, gain acces to additional content. This includes exclusive access and interaction with Slate commentators and behind-the-scene style articles providing more insight into the news-making process. They also provide an “enhanced on-site experience”. This basically sounds like features meant to boost site statistics that otherwise inhibit the user experience; such as articles split over multiple pages rather than on a single page, or the ability to view comments in-page rather than in a pop-up window. In general, I tend to be thrifty in my spending habits and don’t find the prospect of an “enhanced experience” or the additional content valuable enough to justify spending the extra money. I find the content provided to be sufficient for my needs.&lt;/p&gt;
+
+&lt;p&gt;Digg became a mainstay of mine relatively recently. Being a micromanager, when it comes to my news consumption (as well as my music, see Hype Machine below), I used to be a heavy user of Google Reader as an RSS feed aggregator to keep track of my various blogs. However, Google eventually ceased support for Reader in July 2013. At that point, in my search for an alternative I turned to Digg’s Reader, which featured an interface that was very similar to Google Reader.  Eventually, I ceased using Digg’s Reader and now visit the site multiple times a day for their constantly updated cast of articles featured on their front page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/digg_snapshot.png&quot; alt=&quot;Digg Homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-look-1&quot;&gt;The Look&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;minimalist&lt;/li&gt;
+  &lt;li&gt;retro&lt;/li&gt;
+  &lt;li&gt;uniform&lt;/li&gt;
+  &lt;li&gt;eye-catching&lt;/li&gt;
+  &lt;li&gt;simple&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Digg used to be a community-driven website very similar to Reddit, where users would vote for content they wanted to appear on the front page by either choosing to “dig” or “bury” articles. However, unlike Reddit, Digg didn’t survive in that form. In its current form it is entirely different than it was pre-2008 when it was sold to its current owners. Now, the Digg experience is entirely curated by the editorial staff.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-content-1&quot;&gt;The Content&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;techie&lt;/li&gt;
+  &lt;li&gt;metanews&lt;/li&gt;
+  &lt;li&gt;educational&lt;/li&gt;
+  &lt;li&gt;novel&lt;/li&gt;
+  &lt;li&gt;current&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Digg provides links to interesting content across the web for those that may otherwise not be inclined or have to the time to go searching for it. While I once took pride in the effort I put into curating my blogroll of interesting news sources and perspectives, I’m not sure my news consumption is significantly less interesting or less timely since I’ve taken a back seat and allowed the Digg editors greater control over what I see on a day-to-day basis. I’d say, in general, Digg works for me because it generally satisfies my needs for timeliness and novelty. Digg provides a good mix of buzz worthy, conventional content and more esoteric or otherwise obscure material. All of the content is very simply laid out on a grid across the front page. Even more so than Slate, Digg casts its net wide providing links leading to webpages covering everything from Beyonce’s latest album to an article with pictures of &lt;a href=&quot;http://modernfarmer.com/2013/11/goats-sweaters/&quot; target=&quot;_blank&quot;&gt;goats in sweaters&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Digg is definitely one of those sites where half an hour can pass without much notice. Although for the most part, you spend only relatively brief moments on Digg itself, with more time spent browsing through the external content it links to. Recently, Digg has made a push towards content creation and can, on occasion, feature “Digg Original” &lt;a href=&quot;http://digg.com/originals/why-audio-never-goes-viral&quot; target=&quot;_blank&quot;&gt;exclusive&lt;/a&gt; &lt;a href=&quot;http://digg.com/2014/how-to-dispose-of-everything&quot; target=&quot;_blank&quot;&gt;content&lt;/a&gt; on its front page. This suggests that in the future Digg sees itself not just as an aggregator but also as a content creator similar to &lt;a href=&quot;http://www.buzzfeed.com/&quot; target=&quot;_blank&quot;&gt;BuzzFeed&lt;/a&gt; or the &lt;a href=&quot;http://www.huffingtonpost.com/&quot; target=&quot;_blank&quot;&gt;Huffington Post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like Slate, Digg also features clearly marked “sponsored” articles. However, aside from the occasional sponsored content, Digg doesn’t really seem to have any other obvious source of revenue yet.&lt;/p&gt;
+
+&lt;p&gt;Hype Machine is a the answer to the question of where to go when you want to get a pulse for the sort of music being talked about by the veritable music blogger community. As such, Hype Machine aggregates the music tracks uploaded and posts written about them in an easily searchable and infinitely explorable online online directory. What I thoroughly enjoy about the Hype Machine experience, as a music discovery service, is that it isn’t a passive activity like listening to the radio or online streaming services like Rdio or Pandora. Rather, Hype Machine requires some active effort or direction on my part, which elicits a much keener sense of satisfaction when I do find something noteworthy.  Moreover, when I do find a music track that I enjoy, I can follow the link back to the blog which originally posted it to see what else the blog author had posted in the past. So Hype Machine acts not only to help me find new music but also to discover blogs with similar tastes as me. That being said, Hype Machine also has certain passive experiences for when I just want music on the background and I don’t want to spend too much time searching it out. Hype Machine allows you to cycle through a playlist of the most popular trending music in the blogosphere, or go through just the newest uploaded tracks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hypem_snapshot.png&quot; alt=&quot;Hype Machine Homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-look-2&quot;&gt;The Look&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;cluttered&lt;/li&gt;
+  &lt;li&gt;hip&lt;/li&gt;
+  &lt;li&gt;cute&lt;/li&gt;
+  &lt;li&gt;vibrant&lt;/li&gt;
+  &lt;li&gt;kinetic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looking at the front page, its clear that my eye is supposed to be instantly drawn to banner advertisement featured very prominently right under the Hype Machine logo and menu bar.  However, as I previously mentioned, when I turn on Ghostery, the banner advertisement and other flash elements are no longer present and my eye is instead drawn directly to the “latest blogged music” section.&lt;/p&gt;
+
+&lt;p&gt;Hype Machine has a very tangible, kinetic user interface. Just about every element on the site is responsive to my cursour without clicking. It really does in some way evoke a “machine” with its various moving cogs. From what little I know now about HTML/CSS, I can imagine the liberal use of pseudoclasses such as “:hover” in the CSS source code.&lt;/p&gt;
+
+&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;aural&lt;/li&gt;
+  &lt;li&gt;variety&lt;/li&gt;
+  &lt;li&gt;indie&lt;/li&gt;
+  &lt;li&gt;design&lt;/li&gt;
+  &lt;li&gt;playful&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s easy to spend many hours on Hype Machine just jumping from one artist or track to the other. Moreover, Hype Machine has a nifty feature that allows you to keep listening to a track and still navigate from page to page without having to stop the track I’m listening to.&lt;/p&gt;
+
+&lt;p&gt;Hype Machine has several sources of potential revenue. One of the main sources of revenue is the commission it takes from each purchase made through a link to an online marketplace from Hype Machine. Hype Machine also features, prominently, concert listing for artists you listen to, which I imagine also provides Hype Machine with commission from the sale of tickets.  Moreover, although the the main focus of the content provided by Hype Machine is aural (i.e. music), Hype Machine also provides plenty of eye-candy in terms of it’s playful design aesthetics. This design aesthetic is a source of revenue for Hype Machine as well, since it sells branded items such as t-shirts on its online store.  Although I generally don’t purchase music online, I have on several occasions purcahsed tickets through the concert listings on Hype Machine.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2014 09:25:00 -0700</pubDate>
+        <link>/technical/2014/07/01/favorite-sites/</link>
+        <guid isPermaLink="true">/technical/2014/07/01/favorite-sites/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+  </channel>
+</rss>
