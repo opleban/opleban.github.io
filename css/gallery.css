@@ -63,19 +63,11 @@ a:visited { color: #205caa; }
 }
 
 #sheep{
-	background-image: url(../assets/gallery/2_sheep.jpg);
+	background-image: url(../assets/gallery/2_sheep.JPG);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 45%;
-	height:800px;
-}
-
-#carcass{
-	background-image: url(../assets/gallery/SheepCarcassPanorama.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
 	height:800px;
 }
 
@@ -88,7 +80,7 @@ a:visited { color: #205caa; }
 }
 
 #cold{
-	background-image: url(../assets/gallery/cold.jpg);
+	background-image: url(../assets/gallery/cold.JPG);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
