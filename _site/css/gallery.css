@@ -63,7 +63,7 @@ a:visited { color: #205caa; }
 }
 
 #sheep{
-	background-image: url(../assets/2_sheep.jpg);
+	background-image: url(../assets/gallery/2_sheep.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -158,11 +158,6 @@ a:visited { color: #205caa; }
 	background-size:cover;
 	background-position:0 40%;
 	height:800px;			
-}
-
-.filler{
-	height:200px;
-	background-color:#676767;
 }
 
 
