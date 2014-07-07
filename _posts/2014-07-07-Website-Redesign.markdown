@@ -11,9 +11,9 @@ I also took the opportunity to make my layout a lot cleaner and less distracting
 
 ![Blog directory before]({{ site.url }}/assets/blog-directory-snapshot-before.png)
 
-Now it looks like this:
+After the redesign:
 
-![Blog directory after]({{ site.url }}/assets/blog-directory-snapshot-after.png)
+[![Blog directory after]({{ site.url }}/assets/blog-directory-snapshot-after.png)]({{ site.url }}/assets/blog-directory-snapshot-after.png)
 
 The most noticeable difference is the blank background in my new blog directory. While I definitely did like the Moroccan tile photo, in my previous blog directory page, others found it to be too distracting and busy. I agreed with their criticism and removed it.
 
