@@ -9,16 +9,17 @@ This week I spent a considerable amount of time redesigning and retooling my web
 
 I also took the opportunity to make my layout a lot cleaner and less distracting while still incorporating what I find to be interesting design elements. For example my blog directory used to look like this:
 
-![Blog directory before]({{ site.url }}/assets/blog-directory-snapshot-before.png)
+[![Blog directory before]({{ site.url }}/assets/blog-directory-snapshot-before.png)]({{ site.url }}/assets/blog-directory-before.png)
+
 
 After the redesign:
 
-[![Blog directory after]({{ site.url }}/assets/blog-directory-snapshot-after.png)]({{ site.url }}/assets/blog-directory-snapshot-after.png)
+[![Blog directory after]({{ site.url }}/assets/blog-directory-snapshot-after.png)]({{ site.url }}/assets/blog-directory-after.png)
 
 The most noticeable difference is the blank background in my new blog directory. While I definitely did like the Moroccan tile photo, in my previous blog directory page, others found it to be too distracting and busy. I agreed with their criticism and removed it.
 
 I also took the opportunity to create a gallery page to showcase some of my photos from the Morocco and to start experimenting in earnest with HTML/CSS and JavaScript. I wrote a couple simple lines of code in JavaScript that animate the pictures of the carpets so that they enlarge or shrink when you click on them. This was my first real effort at utilizing JavaScript to create dynamic HTML/CSS content. Although the effort took quite a bit of time, it felt extremely satisfying when I finally had it working they way I had intended.
 
-![Gallery Page]({{ site.url }}/assets/gallery-snapshot.png)
+[![Gallery Page]({{ site.url }}/assets/gallery-snapshot.png)]({{ site.url }}/assets/gallery-snapshot.png)
 
 My website is still very much a work in progress. I'm still figuring out the ins and outs of using Jekyll, but I am starting to very much appreciate its modularity and see my experience using the liquid templating system as a great primer for delving into Ruby on Rails. 

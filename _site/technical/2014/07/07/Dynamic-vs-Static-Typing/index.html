@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dynamic and Static Typing</title>
+    <title>Technical Week 8: Dynamic and Static Typing</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="The personal website for OJP.">
     <link rel="canonical" href="/technical/2014/07/07/Dynamic-vs-Static-Typing/">
@@ -36,12 +36,12 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Dynamic and Static Typing</h1>
+    <h1>Technical Week 8: Dynamic and Static Typing</h1>
     <p class="meta">Jul 7, 2014</p>
   </header>
 
   <article class="post-content">
-  <h3 id="dynamic-static">Dynamic? Static?</h3>
+  <h3 id="dynamic-and-static-typing">Dynamic and Static-typing</h3>
 <p>I feel a bit guilty having begun programming in Ruby, a dynamic-typed language, as opposed to a language such as Java or C++, both static-typed langauge. Dynamic? Static? What does this mean? Dynamic and Static refers to the permissiveness of the compiler towards variable types in the code. In dynamic-typed languages such as Ruby, Python, or Javascript, a variable and variable type (i.e. int, float, char) doesn’t have to be declared before a value is assigned to it. Moreover any type of value can be assigned or reassigned to it throughout the code.  This contrasts sharply with static-typed langauge such as Java or C++ where the variables needs to be declared before it can be assigned. What this means, is that when the code is compiled if a there are any problems with the variables, they will likely be caught when the code is compiled in a static-typed langauge as opposed to during runtime in a dynamic-typed language. </p>
 
 <h3 id="strong-and-weak-typed">Strong and Weak-Typed</h3>
@@ -50,9 +50,9 @@
 <h3 id="the-cost-and-benefits">The Cost and Benefits</h3>
 <p>The argument often made for static typing is that the variable checking (and type checking in strong-typed languages, i.e Java) that occurs during compile time provides early feedback and indications of any possible bugs in your code. If there is a mispelled variable name somewhere, a static-typed language will raise an error since the variable name would have to match its variable declaration. Moreover, the type checker ensures that no type-incorrect operations will occur. In addition, static type checking makes it easier to consistently and fully modify your code when you need to change variable names. Proponents of static-typed languages argue that dynamic languages are too permissive and often time lead to sloppy code which will cause problems at run time which are harder to find and usually too late to fix as opposed to static-typed languages which raise an error in production when the code is compiled. Proponents of static-typed languages argue that a codebase for large, long-term projects is unmaintainable in a dynamic-typed language due to these problems.</p>
 
-<p>Proponents of dynamic language assert that the strict type-checking in static-typed languages make it difficult or sometimes impossible express programs that involve mixed-type operations which could assign multiple types of data to a variable. Moreover, its possible to write much more concise code in dynamic languages because there is no need to declare and define varaibles before assigning a value to them. This also makes it easier to quickly (or dynamically one could say) change and evolve your program based on your changing needs without having to make significant changes to your code base. Finally, proponents of dynamic-typed languages contend that type checking won’t catch the “hard” bugs in a code. These “hard” bugs usually have to do with the underlying logic of a program as opposed to variable names and type incorrect operations. Many of these minor issues can be solved anyways using type-checker and variable-checker utilities available for many dynamic programming languages such as JSLint for JavaScript and <a href="http://pychecker.sourceforge.net/">PyChecker</a> for Python. Finally, proponents of dynamic-typed langauges state that most of these bugs can be caught anyways through proper use of unit-testing to ensure that your code is executing as intended. </p>
+<p>Proponents of dynamic language assert that the strict type-checking in static-typed languages make it difficult or sometimes impossible express programs that involve mixed-type operations which could assign multiple types of data to a variable. Moreover, its possible to write much more concise code in dynamic languages because there is no need to declare and define varaibles before assigning a value to them. This also makes it easier to quickly (or dynamically one could say) change and evolve your program based on your changing needs without having to make significant changes to your code base. Finally, proponents of dynamic-typed languages contend that type checking won’t catch the “hard” bugs in a code. These “hard” bugs usually have to do with the underlying logic of a program as opposed to variable names and type incorrect operations. Many of these minor issues can be solved anyways using type-checker and variable-checker utilities available for many dynamic programming languages such as <a href="http://www.jslint.com/">JSLint</a> for JavaScript and <a href="http://pychecker.sourceforge.net/">PyChecker</a> for Python. Finally, proponents of dynamic-typed langauges state that most of these bugs can be caught anyways through proper use of unit-testing to ensure that your code is executing as intended. </p>
 
-<h3 id="resources-on-dynamic-and-static-type-languages">Resources on Dynamic and Static Type Languages</h3>
+<h3 id="additional-resources-on-dynamic-and-static-typing">Additional resources on dynamic and static-typing</h3>
 <ul>
   <li><a href="http://courses.cs.washington.edu/courses/cse341/04wi/lectures/13-dynamic-vs-static-types.html/">University of Washington CS341 Lecture Notes on Dynamic vs Static Typing</a></li>
   <li><a href="http://www.smashingmagazine.com/2013/04/18/introduction-to-programming-type-systems/">Smashing Magazine: Introduction to Programming Type Systems</a></li>

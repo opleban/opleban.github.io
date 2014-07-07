@@ -5,13 +5,42 @@
     <description>The personal website for OJP.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Jul 2014 13:27:04 -0400</pubDate>
-    <lastBuildDate>Mon, 07 Jul 2014 13:27:04 -0400</lastBuildDate>
+    <pubDate>Mon, 07 Jul 2014 15:21:46 -0400</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2014 15:21:46 -0400</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
     
       <item>
-        <title>Dynamic and Static Typing</title>
-        <description>&lt;h3 id=&quot;dynamic-static&quot;&gt;Dynamic? Static?&lt;/h3&gt;
+        <title>Website Redesign</title>
+        <description>&lt;p&gt;This week I spent a considerable amount of time redesigning and retooling my website and blog to take advantage of &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Jekyll is a static site generator ideal for producing content-aware websites such as blogs. Before using Jekyll, the directory for my website was a veritable mess and a huge pain in the backsdie to update. Everytime I’d add post, I’d also have to update links to that post in several different locations on my website. Jekyll takes away much of the frustration of having to update and maintain my blog, through its use of the markdown to format my posts (as opposed to HTML) and the liquid templating system to quickly generate and update page content.&lt;/p&gt;
+
+&lt;p&gt;I also took the opportunity to make my layout a lot cleaner and less distracting while still incorporating what I find to be interesting design elements. For example my blog directory used to look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog-directory-before.png&quot;&gt;&lt;img src=&quot;/assets/blog-directory-snapshot-before.png&quot; alt=&quot;Blog directory before&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After the redesign:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/blog-directory-after.png&quot;&gt;&lt;img src=&quot;/assets/blog-directory-snapshot-after.png&quot; alt=&quot;Blog directory after&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The most noticeable difference is the blank background in my new blog directory. While I definitely did like the Moroccan tile photo, in my previous blog directory page, others found it to be too distracting and busy. I agreed with their criticism and removed it.&lt;/p&gt;
+
+&lt;p&gt;I also took the opportunity to create a gallery page to showcase some of my photos from the Morocco and to start experimenting in earnest with HTML/CSS and JavaScript. I wrote a couple simple lines of code in JavaScript that animate the pictures of the carpets so that they enlarge or shrink when you click on them. This was my first real effort at utilizing JavaScript to create dynamic HTML/CSS content. Although the effort took quite a bit of time, it felt extremely satisfying when I finally had it working they way I had intended.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/gallery-snapshot.png&quot;&gt;&lt;img src=&quot;/assets/gallery-snapshot.png&quot; alt=&quot;Gallery Page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My website is still very much a work in progress. I’m still figuring out the ins and outs of using Jekyll, but I am starting to very much appreciate its modularity and see my experience using the liquid templating system as a great primer for delving into Ruby on Rails. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Jul 2014 10:57:00 -0400</pubDate>
+        <link>/html/css/2014/07/07/Website-Redesign/</link>
+        <guid isPermaLink="true">/html/css/2014/07/07/Website-Redesign/</guid>
+        
+        
+        <category>html/css</category>
+        
+      </item>
+    
+      <item>
+        <title>Technical Week 8: Dynamic and Static Typing</title>
+        <description>&lt;h3 id=&quot;dynamic-and-static-typing&quot;&gt;Dynamic and Static-typing&lt;/h3&gt;
 &lt;p&gt;I feel a bit guilty having begun programming in Ruby, a dynamic-typed language, as opposed to a language such as Java or C++, both static-typed langauge. Dynamic? Static? What does this mean? Dynamic and Static refers to the permissiveness of the compiler towards variable types in the code. In dynamic-typed languages such as Ruby, Python, or Javascript, a variable and variable type (i.e. int, float, char) doesn’t have to be declared before a value is assigned to it. Moreover any type of value can be assigned or reassigned to it throughout the code.  This contrasts sharply with static-typed langauge such as Java or C++ where the variables needs to be declared before it can be assigned. What this means, is that when the code is compiled if a there are any problems with the variables, they will likely be caught when the code is compiled in a static-typed langauge as opposed to during runtime in a dynamic-typed language. &lt;/p&gt;
 
 &lt;h3 id=&quot;strong-and-weak-typed&quot;&gt;Strong and Weak-Typed&lt;/h3&gt;
@@ -20,9 +49,9 @@
 &lt;h3 id=&quot;the-cost-and-benefits&quot;&gt;The Cost and Benefits&lt;/h3&gt;
 &lt;p&gt;The argument often made for static typing is that the variable checking (and type checking in strong-typed languages, i.e Java) that occurs during compile time provides early feedback and indications of any possible bugs in your code. If there is a mispelled variable name somewhere, a static-typed language will raise an error since the variable name would have to match its variable declaration. Moreover, the type checker ensures that no type-incorrect operations will occur. In addition, static type checking makes it easier to consistently and fully modify your code when you need to change variable names. Proponents of static-typed languages argue that dynamic languages are too permissive and often time lead to sloppy code which will cause problems at run time which are harder to find and usually too late to fix as opposed to static-typed languages which raise an error in production when the code is compiled. Proponents of static-typed languages argue that a codebase for large, long-term projects is unmaintainable in a dynamic-typed language due to these problems.&lt;/p&gt;
 
-&lt;p&gt;Proponents of dynamic language assert that the strict type-checking in static-typed languages make it difficult or sometimes impossible express programs that involve mixed-type operations which could assign multiple types of data to a variable. Moreover, its possible to write much more concise code in dynamic languages because there is no need to declare and define varaibles before assigning a value to them. This also makes it easier to quickly (or dynamically one could say) change and evolve your program based on your changing needs without having to make significant changes to your code base. Finally, proponents of dynamic-typed languages contend that type checking won’t catch the “hard” bugs in a code. These “hard” bugs usually have to do with the underlying logic of a program as opposed to variable names and type incorrect operations. Many of these minor issues can be solved anyways using type-checker and variable-checker utilities available for many dynamic programming languages such as JSLint for JavaScript and &lt;a href=&quot;http://pychecker.sourceforge.net/&quot;&gt;PyChecker&lt;/a&gt; for Python. Finally, proponents of dynamic-typed langauges state that most of these bugs can be caught anyways through proper use of unit-testing to ensure that your code is executing as intended. &lt;/p&gt;
+&lt;p&gt;Proponents of dynamic language assert that the strict type-checking in static-typed languages make it difficult or sometimes impossible express programs that involve mixed-type operations which could assign multiple types of data to a variable. Moreover, its possible to write much more concise code in dynamic languages because there is no need to declare and define varaibles before assigning a value to them. This also makes it easier to quickly (or dynamically one could say) change and evolve your program based on your changing needs without having to make significant changes to your code base. Finally, proponents of dynamic-typed languages contend that type checking won’t catch the “hard” bugs in a code. These “hard” bugs usually have to do with the underlying logic of a program as opposed to variable names and type incorrect operations. Many of these minor issues can be solved anyways using type-checker and variable-checker utilities available for many dynamic programming languages such as &lt;a href=&quot;http://www.jslint.com/&quot;&gt;JSLint&lt;/a&gt; for JavaScript and &lt;a href=&quot;http://pychecker.sourceforge.net/&quot;&gt;PyChecker&lt;/a&gt; for Python. Finally, proponents of dynamic-typed langauges state that most of these bugs can be caught anyways through proper use of unit-testing to ensure that your code is executing as intended. &lt;/p&gt;
 
-&lt;h3 id=&quot;resources-on-dynamic-and-static-type-languages&quot;&gt;Resources on Dynamic and Static Type Languages&lt;/h3&gt;
+&lt;h3 id=&quot;additional-resources-on-dynamic-and-static-typing&quot;&gt;Additional resources on dynamic and static-typing&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://courses.cs.washington.edu/courses/cse341/04wi/lectures/13-dynamic-vs-static-types.html/&quot;&gt;University of Washington CS341 Lecture Notes on Dynamic vs Static Typing&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2013/04/18/introduction-to-programming-type-systems/&quot;&gt;Smashing Magazine: Introduction to Programming Type Systems&lt;/a&gt;&lt;/li&gt;
@@ -337,53 +366,6 @@ end
         <pubDate>Tue, 01 Jul 2014 14:41:00 -0400</pubDate>
         <link>/cultural/2014/07/01/Thinking-Style/</link>
         <guid isPermaLink="true">/cultural/2014/07/01/Thinking-Style/</guid>
-        
-        
-        <category>cultural</category>
-        
-      </item>
-    
-      <item>
-        <title>Technical Week 2: Inline Blocks</title>
-        <description>&lt;h2 id=&quot;technical-blog-inline-vs-inline-block-style&quot;&gt;Technical Blog: Inline vs. Inline-block style&lt;/h2&gt;
-&lt;p&gt;An inline object, as the name suggests, is an object that is displayed inline. Unlike block objects, inline objects don’t take a width or height value and don’t force a line break after the object.&lt;/p&gt;
-
-&lt;div class=&quot;diagram&quot;&gt; 
-	&lt;div class=&quot;inline&quot;&gt;Inline object #1&lt;/div&gt; 
-	&lt;div class=&quot;inline&quot;&gt;Inline object #2&lt;/div&gt; 
-	&lt;div class=&quot;inline&quot;&gt;Inline object #3&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;caption&quot;&gt; Three inline objects&lt;/div&gt;
-
-&lt;div class=&quot;diagram&quot;&gt;
-	&lt;div class=&quot;block&quot;&gt;Block object #1&lt;/div&gt; 
-	&lt;div class=&quot;block&quot;&gt;Block object #2&lt;/div&gt; 
-	&lt;div class=&quot;block&quot;&gt;Block object #3&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;caption&quot;&gt;Three block objects&lt;/div&gt;
-
-&lt;p&gt;As demonstrated above the three inline objects are adjacent to one another. Although, you can add a border and margin to an inline object, these objects only affect objects that are on the same horizontal plane. Examples of elements that are inline by default, include em, span, strong, and bold. Example of default block elements are p, div, ul and ol.&lt;/p&gt;
-
-&lt;div class=&quot;diagram&quot;&gt;
-	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #1&lt;/div&gt;
-	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #2&lt;/div&gt;
-	&lt;div class=&quot;inline-block&quot;&gt;Inline-block object #3&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;caption&quot;&gt;Three similar inline-block objects&lt;/div&gt;
-
-&lt;div class=&quot;diagram&quot;&gt;
-	&lt;div class=&quot;inline_high&quot;&gt;Inline-block object #1&lt;/div&gt;
-	&lt;div class=&quot;inline_fat&quot;&gt;Inline-block object #2&lt;/div&gt;
-	&lt;div class=&quot;inline_low&quot;&gt;Inline-block object #3&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;caption&quot;&gt;Three inline-block objects with different shapes&lt;/div&gt;
-
-&lt;p&gt;Objects that are inline-block can be placed so several irregularly sized objects are adjacent to each other. Very similar to inline objects, however those objects can take on width and heights values unlike purely inline objects. Hence, inline-blocks combine many of the attributes of inline and block objects. Like inline objects, an inline-block object appears inline and doesn’t force a line break in its wake, so that one inline-block object can appear adjacent to another. However, like block objects, an inline-block object accepts a width and a height and will have an effect on all objects it may come in contact with, not just those adjacent to it.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 01 Jul 2014 14:21:00 -0400</pubDate>
-        <link>/cultural/2014/07/01/Inline-Blocks/</link>
-        <guid isPermaLink="true">/cultural/2014/07/01/Inline-Blocks/</guid>
         
         
         <category>cultural</category>
