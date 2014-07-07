@@ -5,9 +5,38 @@
     <description>The personal website for OJP.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Jul 2014 14:36:28 -0400</pubDate>
-    <lastBuildDate>Sun, 06 Jul 2014 14:36:28 -0400</lastBuildDate>
+    <pubDate>Mon, 07 Jul 2014 13:27:04 -0400</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2014 13:27:04 -0400</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>Dynamic and Static Typing</title>
+        <description>&lt;h3 id=&quot;dynamic-static&quot;&gt;Dynamic? Static?&lt;/h3&gt;
+&lt;p&gt;I feel a bit guilty having begun programming in Ruby, a dynamic-typed language, as opposed to a language such as Java or C++, both static-typed langauge. Dynamic? Static? What does this mean? Dynamic and Static refers to the permissiveness of the compiler towards variable types in the code. In dynamic-typed languages such as Ruby, Python, or Javascript, a variable and variable type (i.e. int, float, char) doesn’t have to be declared before a value is assigned to it. Moreover any type of value can be assigned or reassigned to it throughout the code.  This contrasts sharply with static-typed langauge such as Java or C++ where the variables needs to be declared before it can be assigned. What this means, is that when the code is compiled if a there are any problems with the variables, they will likely be caught when the code is compiled in a static-typed langauge as opposed to during runtime in a dynamic-typed language. &lt;/p&gt;
+
+&lt;h3 id=&quot;strong-and-weak-typed&quot;&gt;Strong and Weak-Typed&lt;/h3&gt;
+&lt;p&gt;Now the concepts of dynamic and static typed seemed to be intertwined with the related issue of strong vs. weak-typed languages which relate specifically with the variable types. In a strong-type langauge, a variable type is assigned when the variable is declared and no other variable can be assigned other than that specifc variable type. This is the case in Java which is a strong static-typed langauge. This means that type-incorrect operations can be caught at compile time in strong-typed languages whereas in weak-typed languages those operations are not caught until the program is executed. &lt;/p&gt;
+
+&lt;h3 id=&quot;the-cost-and-benefits&quot;&gt;The Cost and Benefits&lt;/h3&gt;
+&lt;p&gt;The argument often made for static typing is that the variable checking (and type checking in strong-typed languages, i.e Java) that occurs during compile time provides early feedback and indications of any possible bugs in your code. If there is a mispelled variable name somewhere, a static-typed language will raise an error since the variable name would have to match its variable declaration. Moreover, the type checker ensures that no type-incorrect operations will occur. In addition, static type checking makes it easier to consistently and fully modify your code when you need to change variable names. Proponents of static-typed languages argue that dynamic languages are too permissive and often time lead to sloppy code which will cause problems at run time which are harder to find and usually too late to fix as opposed to static-typed languages which raise an error in production when the code is compiled. Proponents of static-typed languages argue that a codebase for large, long-term projects is unmaintainable in a dynamic-typed language due to these problems.&lt;/p&gt;
+
+&lt;p&gt;Proponents of dynamic language assert that the strict type-checking in static-typed languages make it difficult or sometimes impossible express programs that involve mixed-type operations which could assign multiple types of data to a variable. Moreover, its possible to write much more concise code in dynamic languages because there is no need to declare and define varaibles before assigning a value to them. This also makes it easier to quickly (or dynamically one could say) change and evolve your program based on your changing needs without having to make significant changes to your code base. Finally, proponents of dynamic-typed languages contend that type checking won’t catch the “hard” bugs in a code. These “hard” bugs usually have to do with the underlying logic of a program as opposed to variable names and type incorrect operations. Many of these minor issues can be solved anyways using type-checker and variable-checker utilities available for many dynamic programming languages such as JSLint for JavaScript and &lt;a href=&quot;http://pychecker.sourceforge.net/&quot;&gt;PyChecker&lt;/a&gt; for Python. Finally, proponents of dynamic-typed langauges state that most of these bugs can be caught anyways through proper use of unit-testing to ensure that your code is executing as intended. &lt;/p&gt;
+
+&lt;h3 id=&quot;resources-on-dynamic-and-static-type-languages&quot;&gt;Resources on Dynamic and Static Type Languages&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://courses.cs.washington.edu/courses/cse341/04wi/lectures/13-dynamic-vs-static-types.html/&quot;&gt;University of Washington CS341 Lecture Notes on Dynamic vs Static Typing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2013/04/18/introduction-to-programming-type-systems/&quot;&gt;Smashing Magazine: Introduction to Programming Type Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.senktec.com/2013/10/static-typing-vs-unit-testing/&quot;&gt;Senktect: Static Typing vs. Unit Testing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 07 Jul 2014 09:25:00 -0400</pubDate>
+        <link>/technical/2014/07/07/Dynamic-vs-Static-Typing/</link>
+        <guid isPermaLink="true">/technical/2014/07/07/Dynamic-vs-Static-Typing/</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
     
       <item>
         <title>Technical Week 7: SQL and NoSQL databases</title>
@@ -358,117 +387,6 @@ end
         
         
         <category>cultural</category>
-        
-      </item>
-    
-      <item>
-        <title>Technical Week 1: Favorite Sites</title>
-        <description>&lt;h2 id=&quot;introductory-thoughts&quot;&gt;Introductory thoughts&lt;/h2&gt;
-
-&lt;p&gt;Oh, how times have changed! Had I written this blog entry only a year ago, the only website on this list would have been &lt;a href=&quot;http://www.tastespotting.com/&quot; target=&quot;_blank&quot;&gt;TasteSpotting&lt;/a&gt;, A reflection of my very (un)healthy interest in food.&lt;/p&gt;
-
-&lt;p&gt;As a recovering politico and minor news junkie, my choice of sites is a reflection of my current interests and day-to-day experience working in politics. The three sites that I’ll discuss below are Slate, Digg and Hype Machine. The first two definitely reflect my interest in political commentary and current events.&lt;/p&gt;
-
-&lt;h2 id=&quot;notes-on-ghostery&quot;&gt;Notes on Ghostery&lt;/h2&gt;
-
-&lt;p&gt;In general when I surf the web, I utilize &lt;a href=&quot;https://www.ghostery.com/en/&quot; target=&quot;_blank&quot;&gt;Ghostery&lt;/a&gt; an add-on to Chrome that lets you block most cookies and web trackers and also has the effect of blocking many banner and pop-up advertisement. While with Digg this made little difference in my browsing experience, with Slate and Hype Machine, I definitely did notice the difference in the amount and placement of advertisements on those pages. With that in mind, I made sure to disable Ghostery in order to get a better idea of the intended user experience.&lt;/p&gt;
-
-&lt;p&gt;Slate is an online news magazine that provides left-of-center, occasionally contrarian commentary on current events, politics and culture. Slate commentators provide an interesting take on the news and current events although not quite in the way that newer outfits like “&lt;a href=&quot;http://www.vox.com/&quot; target=&quot;_blank&quot;&gt;Vox&lt;/a&gt;” or Glenn Greenwald’s “&lt;a href=&quot;https://firstlook.org/theintercept/&quot; target=&quot;_blank&quot;&gt;The Intercept&lt;/a&gt;” which seem much more overt in their mission to &lt;i&gt;“educate”&lt;/i&gt; and &lt;i&gt;“inform”&lt;/i&gt; the public a-la &lt;a href=&quot;https://www.youtube.com/watch?v=Zabb3fxGTPk&quot; target=&quot;_blank&quot;&gt;Will McAvoy&lt;/a&gt;. Rather, Slate seems to assume a certain political savviness on the part of its readers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/slate_snapshot.png&quot; alt=&quot;Slate HomePage&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-look&quot;&gt;The Look&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;minimalist&lt;/li&gt;
-  &lt;li&gt;modern&lt;/li&gt;
-  &lt;li&gt;clean&lt;/li&gt;
-  &lt;li&gt;bright&lt;/li&gt;
-  &lt;li&gt;square&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Slate’s look, as implied by its name, seems meant to evoke a slate of rock. Very square and clean-looking. Slate like Digg, utilizes a three-column layout. Slate draws attention to the important articles by making those articles appear higher up on the webpage and has them take up greater space across an entire column, while the minor articles are given subcolumns and are generally lower on the page.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-content&quot;&gt;The Content&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;left-of-center&lt;/li&gt;
-  &lt;li&gt;political&lt;/li&gt;
-  &lt;li&gt;current&lt;/li&gt;
-  &lt;li&gt;serious&lt;/li&gt;
-  &lt;li&gt;contrarian&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;While the website’s layout is relatively simple, the website designers seem more intent on organizing the content by its timeliness and click-worthiness rather than categorically by topic. Hence, the front page will often feature a wide range of topics from sports to political primaries, ensuring that there is something for everyone. This added a sense of randomness and variety to the front page. In keeping with their emphasis on timeliness, there are in fact two sections geared around late-breaking or new news items, with a section punned “Slatest” and another section titled “Most Recent”. The modern and clean look of Slate complements its focus on serious commentary. The use of negative space to define many of the borders between the articles conceptually complements Slate’s contrarian political tendencies.&lt;/p&gt;
-
-&lt;p&gt;The website doesn’t necessarily make me want to stay on it for a long time. Instead I’m more inclined to to click through and read quickly through the easily digestible articles. Slate focus isn’t necessarily on long-form journalism but is more for people such as myself with shorter attention-spans. It’s longest articles tend to be at most two to three pages.&lt;/p&gt;
-
-&lt;p&gt;The website has “sponsored content” that is clearly distinguished as such, with a teal border surrounding it. They also have a Slate store that sells branded items such as shirts and coffee mugs. Most importantly, Slate offers “&lt;a href=&quot;http://www.slate.com/plus?wpsrc=sp_all_hp-rr_promo&quot; target=&quot;_blank&quot;&gt;Slate Plus&lt;/a&gt;”. So called because, those willing to pay $5 a month or $50 a year, gain acces to additional content. This includes exclusive access and interaction with Slate commentators and behind-the-scene style articles providing more insight into the news-making process. They also provide an “enhanced on-site experience”. This basically sounds like features meant to boost site statistics that otherwise inhibit the user experience; such as articles split over multiple pages rather than on a single page, or the ability to view comments in-page rather than in a pop-up window. In general, I tend to be thrifty in my spending habits and don’t find the prospect of an “enhanced experience” or the additional content valuable enough to justify spending the extra money. I find the content provided to be sufficient for my needs.&lt;/p&gt;
-
-&lt;p&gt;Digg became a mainstay of mine relatively recently. Being a micromanager, when it comes to my news consumption (as well as my music, see Hype Machine below), I used to be a heavy user of Google Reader as an RSS feed aggregator to keep track of my various blogs. However, Google eventually ceased support for Reader in July 2013. At that point, in my search for an alternative I turned to Digg’s Reader, which featured an interface that was very similar to Google Reader.  Eventually, I ceased using Digg’s Reader and now visit the site multiple times a day for their constantly updated cast of articles featured on their front page.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/digg_snapshot.png&quot; alt=&quot;Digg Homepage&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-look-1&quot;&gt;The Look&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;minimalist&lt;/li&gt;
-  &lt;li&gt;retro&lt;/li&gt;
-  &lt;li&gt;uniform&lt;/li&gt;
-  &lt;li&gt;eye-catching&lt;/li&gt;
-  &lt;li&gt;simple&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Digg used to be a community-driven website very similar to Reddit, where users would vote for content they wanted to appear on the front page by either choosing to “dig” or “bury” articles. However, unlike Reddit, Digg didn’t survive in that form. In its current form it is entirely different than it was pre-2008 when it was sold to its current owners. Now, the Digg experience is entirely curated by the editorial staff.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-content-1&quot;&gt;The Content&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;techie&lt;/li&gt;
-  &lt;li&gt;metanews&lt;/li&gt;
-  &lt;li&gt;educational&lt;/li&gt;
-  &lt;li&gt;novel&lt;/li&gt;
-  &lt;li&gt;current&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Digg provides links to interesting content across the web for those that may otherwise not be inclined or have to the time to go searching for it. While I once took pride in the effort I put into curating my blogroll of interesting news sources and perspectives, I’m not sure my news consumption is significantly less interesting or less timely since I’ve taken a back seat and allowed the Digg editors greater control over what I see on a day-to-day basis. I’d say, in general, Digg works for me because it generally satisfies my needs for timeliness and novelty. Digg provides a good mix of buzz worthy, conventional content and more esoteric or otherwise obscure material. All of the content is very simply laid out on a grid across the front page. Even more so than Slate, Digg casts its net wide providing links leading to webpages covering everything from Beyonce’s latest album to an article with pictures of &lt;a href=&quot;http://modernfarmer.com/2013/11/goats-sweaters/&quot; target=&quot;_blank&quot;&gt;goats in sweaters&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Digg is definitely one of those sites where half an hour can pass without much notice. Although for the most part, you spend only relatively brief moments on Digg itself, with more time spent browsing through the external content it links to. Recently, Digg has made a push towards content creation and can, on occasion, feature “Digg Original” &lt;a href=&quot;http://digg.com/originals/why-audio-never-goes-viral&quot; target=&quot;_blank&quot;&gt;exclusive&lt;/a&gt; &lt;a href=&quot;http://digg.com/2014/how-to-dispose-of-everything&quot; target=&quot;_blank&quot;&gt;content&lt;/a&gt; on its front page. This suggests that in the future Digg sees itself not just as an aggregator but also as a content creator similar to &lt;a href=&quot;http://www.buzzfeed.com/&quot; target=&quot;_blank&quot;&gt;BuzzFeed&lt;/a&gt; or the &lt;a href=&quot;http://www.huffingtonpost.com/&quot; target=&quot;_blank&quot;&gt;Huffington Post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Like Slate, Digg also features clearly marked “sponsored” articles. However, aside from the occasional sponsored content, Digg doesn’t really seem to have any other obvious source of revenue yet.&lt;/p&gt;
-
-&lt;p&gt;Hype Machine is a the answer to the question of where to go when you want to get a pulse for the sort of music being talked about by the veritable music blogger community. As such, Hype Machine aggregates the music tracks uploaded and posts written about them in an easily searchable and infinitely explorable online online directory. What I thoroughly enjoy about the Hype Machine experience, as a music discovery service, is that it isn’t a passive activity like listening to the radio or online streaming services like Rdio or Pandora. Rather, Hype Machine requires some active effort or direction on my part, which elicits a much keener sense of satisfaction when I do find something noteworthy.  Moreover, when I do find a music track that I enjoy, I can follow the link back to the blog which originally posted it to see what else the blog author had posted in the past. So Hype Machine acts not only to help me find new music but also to discover blogs with similar tastes as me. That being said, Hype Machine also has certain passive experiences for when I just want music on the background and I don’t want to spend too much time searching it out. Hype Machine allows you to cycle through a playlist of the most popular trending music in the blogosphere, or go through just the newest uploaded tracks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/hypem_snapshot.png&quot; alt=&quot;Hype Machine Homepage&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-look-2&quot;&gt;The Look&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;cluttered&lt;/li&gt;
-  &lt;li&gt;hip&lt;/li&gt;
-  &lt;li&gt;cute&lt;/li&gt;
-  &lt;li&gt;vibrant&lt;/li&gt;
-  &lt;li&gt;kinetic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looking at the front page, its clear that my eye is supposed to be instantly drawn to banner advertisement featured very prominently right under the Hype Machine logo and menu bar.  However, as I previously mentioned, when I turn on Ghostery, the banner advertisement and other flash elements are no longer present and my eye is instead drawn directly to the “latest blogged music” section.&lt;/p&gt;
-
-&lt;p&gt;Hype Machine has a very tangible, kinetic user interface. Just about every element on the site is responsive to my cursour without clicking. It really does in some way evoke a “machine” with its various moving cogs. From what little I know now about HTML/CSS, I can imagine the liberal use of pseudoclasses such as “:hover” in the CSS source code.&lt;/p&gt;
-
-&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;aural&lt;/li&gt;
-  &lt;li&gt;variety&lt;/li&gt;
-  &lt;li&gt;indie&lt;/li&gt;
-  &lt;li&gt;design&lt;/li&gt;
-  &lt;li&gt;playful&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s easy to spend many hours on Hype Machine just jumping from one artist or track to the other. Moreover, Hype Machine has a nifty feature that allows you to keep listening to a track and still navigate from page to page without having to stop the track I’m listening to.&lt;/p&gt;
-
-&lt;p&gt;Hype Machine has several sources of potential revenue. One of the main sources of revenue is the commission it takes from each purchase made through a link to an online marketplace from Hype Machine. Hype Machine also features, prominently, concert listing for artists you listen to, which I imagine also provides Hype Machine with commission from the sale of tickets.  Moreover, although the the main focus of the content provided by Hype Machine is aural (i.e. music), Hype Machine also provides plenty of eye-candy in terms of it’s playful design aesthetics. This design aesthetic is a source of revenue for Hype Machine as well, since it sells branded items such as t-shirts on its online store.  Although I generally don’t purchase music online, I have on several occasions purcahsed tickets through the concert listings on Hype Machine.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Jul 2014 12:25:00 -0400</pubDate>
-        <link>/technical/2014/07/01/favorite-sites/</link>
-        <guid isPermaLink="true">/technical/2014/07/01/favorite-sites/</guid>
-        
-        
-        <category>technical</category>
         
       </item>
     
