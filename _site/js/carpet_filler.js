@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	var panels = $('.panel, .filler');
+
 	getRandomInt = function(min, max){
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -39,11 +41,12 @@ $(document).ready(function(){
 		}
 	}
 
-	$('.filler').on('click', function(e){
-		var panels = $('.panel, .filler'); 
-		e.preventDefault();
-		toggleElementSize(panels);
-	})
+	panels.on('click', function(e){
+		if ($(this).css('height') === '100px') {
+			e.preventDefault();
+			toggleElementSize(panels);
+		}
+	});
 
 
 	change_filler()
