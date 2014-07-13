@@ -123,12 +123,20 @@ a:visited { color: #205caa; }
 }
 
 .github-icon-svg,
-.twitter-icon-svg {
+.twitter-icon-svg{
   display: inline-block;
   width: 16px;
   height: 16px;
   position: relative;
   top: 3px;
+}
+.fa-linkedin-square{
+  position: relative;
+  color: #C7C7C7;
+}
+.fa-linkedin-square:before{
+  margin-right:2.5px;
+
 }
 
 

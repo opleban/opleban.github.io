@@ -6,6 +6,7 @@ baseurl: ""
 url: ""
 twitter_username: opleban
 github_username:  opleban
+linkedIn_profile: https://www.linkedin.com/pub/ori-pleban/1a/790/67a 
 
 # Build settings
 markdown: kramdown

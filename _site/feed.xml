@@ -5,8 +5,8 @@
     <description>The personal website for OJP.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Jul 2014 16:21:34 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2014 16:21:34 -0400</lastBuildDate>
+    <pubDate>Sun, 13 Jul 2014 14:15:32 -0700</pubDate>
+    <lastBuildDate>Sun, 13 Jul 2014 14:15:32 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;If I could go back and do things differently, I would have been much more forthright in trying to settle the professional disagreement much more promptly and would have worked much more earnestly to address the personal discontent that lingered between us afterwards. From this experience, I learned the importance of clear and polite communication. Moreover, I have a much greater appreciation for pleasant, professional and productive working relationships. &lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Jul 2014 11:27:00 -0400</pubDate>
+        <pubDate>Mon, 07 Jul 2014 08:27:00 -0700</pubDate>
         <link>/cultural/2014/07/07/Conflict/</link>
         <guid isPermaLink="true">/cultural/2014/07/07/Conflict/</guid>
         
@@ -44,7 +44,7 @@
 
 &lt;p&gt;My website is still very much a work in progress. I’m still figuring out the ins and outs of using Jekyll, but I am starting to very much appreciate its modularity and see my experience using the liquid templating system as a great primer for delving into Ruby on Rails. &lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Jul 2014 10:57:00 -0400</pubDate>
+        <pubDate>Mon, 07 Jul 2014 07:57:00 -0700</pubDate>
         <link>/html/css/2014/07/07/Website-Redesign/</link>
         <guid isPermaLink="true">/html/css/2014/07/07/Website-Redesign/</guid>
         
@@ -73,7 +73,7 @@
   &lt;li&gt;&lt;a href=&quot;http://www.senktec.com/2013/10/static-typing-vs-unit-testing/&quot;&gt;Senktect: Static Typing vs. Unit Testing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 07 Jul 2014 09:25:00 -0400</pubDate>
+        <pubDate>Mon, 07 Jul 2014 06:25:00 -0700</pubDate>
         <link>/technical/2014/07/07/Dynamic-vs-Static-Typing/</link>
         <guid isPermaLink="true">/technical/2014/07/07/Dynamic-vs-Static-Typing/</guid>
         
@@ -95,7 +95,7 @@
 &lt;h3 id=&quot;my-thoughts-of-sql-vs-nosql&quot;&gt;My thoughts of SQL vs. NoSQL&lt;/h3&gt;
 &lt;p&gt;As a result of the greater flexibility and ease of scalability, many big data organizations such as Facebook, Google, and LinkedIn utilize NoSQL databases. At this point, I don’t have enough experience with SQL or NoSQL to have formed a strong opinions on either system. However, I have been pleasantly surprised so far with my experience using SQL queries to extract information from the database. I find the syntax to be intuitive but still specific enough to extract whatever information I may need from a database. Although, I anticipate that using pre-defined schemas could feel somewhat limiting at first, particularly as I still develop my understanding of the various relationships (i.e. one-to-one, one-to-many, and many-to-many), I do appreciate the act of pre-defining a schema could be a useful exercise in of itself to gain better insight into the information I intend to keep track of in whatever application I may develop that will utilize SQL databases.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:48:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:48:00 -0700</pubDate>
         <link>/technical/2014/07/01/SQL-NoSQL/</link>
         <guid isPermaLink="true">/technical/2014/07/01/SQL-NoSQL/</guid>
         
@@ -116,7 +116,7 @@
 
 &lt;p&gt;I think its extremely important in general to be self-aware of your internal emotional state. Particularly, when you feel threatened by others in a significant way.  The stereotype threat is particularly pernicious since it plays upon sometimes unacknowledged biases and prejudces and hence can be difficult to recognize both by the offender and victim of the stereotype. Overall, awareness of the stereotype threat can only help in mediating it by providing an opportunity for you to communicate your discomfort in an appropriate and effective way to those around you.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:43:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:43:00 -0700</pubDate>
         <link>/cultural/2014/07/01/Values-And-Stereotype/</link>
         <guid isPermaLink="true">/cultural/2014/07/01/Values-And-Stereotype/</guid>
         
@@ -198,7 +198,7 @@ end
 
 &lt;p&gt;As briefly mentioned before, procs, lambdas, and blocks are also programming concepts often tied to functional programming and all of which are available in Ruby. However, I will delay speaking any further on those concepts until I have a firmer grasp on them.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:39:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:39:00 -0700</pubDate>
         <link>/technical/2014/07/01/Functional-Programming/</link>
         <guid isPermaLink="true">/technical/2014/07/01/Functional-Programming/</guid>
         
@@ -223,7 +223,7 @@ end
 
 &lt;p&gt;Overall, although it does cause me a certain sense of anxiety, I appreciate the opportunity to work with others and look forward to being able to pair with people in person rather than just over Google Hangout.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:22:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:22:00 -0700</pubDate>
         <link>/cultural/2014/07/01/Pairing-And-Feedback/</link>
         <guid isPermaLink="true">/cultural/2014/07/01/Pairing-And-Feedback/</guid>
         
@@ -315,7 +315,7 @@ end
 
 &lt;p&gt;I will mention briefly that while Ruby also features a “for” loop which allows you to loop through each item in a collection, in almost all cases its better to use one of Ruby’s numerous iterator methods. Most prominently: “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each&quot;&gt;each&lt;/a&gt;, “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-map&quot;&gt;map&lt;/a&gt;”, and “&lt;a href=&quot;http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-select&quot;&gt;select”&lt;/a&gt;. &lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:14:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:14:00 -0700</pubDate>
         <link>/technical/2014/07/01/Looping-With-Ruby/</link>
         <guid isPermaLink="true">/technical/2014/07/01/Looping-With-Ruby/</guid>
         
@@ -338,7 +338,7 @@ end
 
 &lt;p&gt;In my mind, part of the solution for the tech community to the aforementioned problems lies not only in mobilizing more time, money and attention to these problems, but also in broadening the make-up of the tech community. It’s no secret that the tech industry has a &lt;a href=&quot;http://bits.blogs.nytimes.com/2014/02/02/techs-diversity-problem-is-apparent-as-early-as-high-school/&quot;&gt;diversity&lt;/a&gt; &lt;a href=&quot;http://www.npr.org/blogs/alltechconsidered/2014/05/29/317024113/googles-white-male-heavy-staff-underlines-techs-diversity-problem&quot;&gt;problem&lt;/a&gt;. In addition to helping to alleviate a variety of other well publicized&lt;a href=&quot;http://www.slate.com/blogs/future_tense/2013/03/25/adria_richards_her_firing_online_harassment_show_how_sexual_harassment_endures.html&quot;&gt;problems&lt;/a&gt; currently plaguging the industry, providing more avenues of entry to the tech industry for people from different ethnic, economic, and educational background will make it more likely that the tech industry will be responsive to concerns from constituencies outside of the “WEIRD” community.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 15:02:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 12:02:00 -0700</pubDate>
         <link>/cultural/2014/07/01/WEIRD/</link>
         <guid isPermaLink="true">/cultural/2014/07/01/WEIRD/</guid>
         
@@ -357,7 +357,7 @@ end
 
 &lt;p&gt;Questions of quality seem beside the point when talking about the popularity of JavaScript. JavaScript works. Instead, it’s popularity seems to be a great case-study of the network effect. It’s ubiquity across all internet-accessible media device, means that any developer wanting to create a product that can be accessed by the largest possible market segment will naturally gravitate towards JavaScript. Qualitative questions seem almost irrelevant. My very unscientific (read: haphazard) assessment of the tech blogosphere’s consensus regarding JavaScript indicates: Technical users don’t seem particularly happy about JavaScript, but they don’t seem overly miserable with it either. Non-technical users gravitate towards content mostly agnostic to the underlying technology. Hence, the status quo prevails.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Jul 2014 14:59:00 -0400</pubDate>
+        <pubDate>Tue, 01 Jul 2014 11:59:00 -0700</pubDate>
         <link>/technical/2014/07/01/Javascript/</link>
         <guid isPermaLink="true">/technical/2014/07/01/Javascript/</guid>
         
