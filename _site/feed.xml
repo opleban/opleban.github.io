@@ -5,9 +5,29 @@
     <description>The personal website for OJP.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Jul 2014 14:15:32 -0700</pubDate>
-    <lastBuildDate>Sun, 13 Jul 2014 14:15:32 -0700</lastBuildDate>
-    <generator>Jekyll v2.1.0</generator>
+    <pubDate>Sun, 13 Jul 2014 17:34:24 -0700</pubDate>
+    <lastBuildDate>Sun, 13 Jul 2014 17:34:24 -0700</lastBuildDate>
+    <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>Good Questions</title>
+        <description>&lt;h3 id=&quot;from-stackoverflowhttpstackoverflowcomquestions1986386check-if-value-exists-in-array-in-rubyrq1-if-i-have-a-value-dog-and-an-array-cat-dog-bird-how-do-i-check-this-wo-looping-through-is-there-a-simple-way-of-checking-if-the-value-exists-nothing-more&quot;&gt;From &lt;a href=&quot;http://stackoverflow.com/questions/1986386/check-if-value-exists-in-array-in-ruby?rq=1&quot;&gt;Stackoverflow&lt;/a&gt;: If I have a value ‘Dog’ and an array [‘Cat’, ‘Dog’, ‘Bird’], how do I check this w/o looping through. Is there a simple way of checking if the value exists, nothing more?&lt;/h3&gt;
+
+&lt;p&gt;Asking good questions is an important part of the learning. The ability to ask good questions can save many hours of frustration and unproductive mental wanderings.&lt;/p&gt;
+
+&lt;p&gt;In this question from stackoverflow, the questioner provides a great example of a simple, well-constructed question. The header provides a good one-line summary of the problem and indicates the specific programming language related to his query. He also provides a specific constraint to his question, namely, that he is only interested in knowing if there is a way of checking whether a value is present without simply looping through each value of his array. Unexpectedly, many of the responses to his query mention Ruby’s Array#include? and Set#include? method. &lt;/p&gt;
+
+&lt;p&gt;The asker in this case could have improved this question by providing more information about why he would like this question answered and under what circumstances it would be preferable for him to search for a value in an array without looping. That information could provide better insight what sort of information would be most useful and what sorts of solution would be best suited to his situation.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 13 Jul 2014 03:08:00 -0700</pubDate>
+        <link>/cultural/2014/07/13/Questions/</link>
+        <guid isPermaLink="true">/cultural/2014/07/13/Questions/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
     
       <item>
         <title>Cultural Week 8: Conflict and discontent</title>
@@ -328,7 +348,7 @@ end
         <title>Cultural Week 4: The virtues of being less WEIRD</title>
         <description>&lt;p&gt;My experience within the tech community, to date, has largely been as a consumer of products and services. As a member of the Western Educated Industrialized Rich Democratic (&lt;a href=&quot;http://www.scientificamerican.com/podcast/episode/psychology-studies-biased-toward-we-10-08-07/&quot;&gt;WEIRD&lt;/a&gt;)population, I’ve been more than satisfied by the wide array of choices available to me. There are very few aspects of my day-to-day experience, where &lt;a href=&quot;https://www.youtube.com/watch?v=szrsfeyLzyg&quot;&gt;there’s an app for that”&lt;/a&gt; doesn’t apply to my lifestyle. From Facebook, which provides a way for me to keep in constant touch with my very extended social circle to the Chipotle apps which makes remotely ordering a burrito for lunch/dinner that much more easy, to name just a couple. I’m spoiled by the plethora of products and services that are ready to meet any possible combintation of my real/imagined wants and desires.&lt;/p&gt;
 
-&lt;p&gt;That being said, I’m keenly aware that other groups are not as well-served by the current state of affairs. In the &amp;lt;/a href=”http://miter.mit.edu/the-unexotic-underclass/”“&amp;gt;The Unexotic Underclass&amp;lt;/a&amp;gt;” for &lt;a href=&quot;http://miter.mit.edu/&quot;&gt;The MIT Entrepreneurship Review&lt;/a&gt;, CZ Nameka argues that entrepreneurs and the tech industry as a whole has lavished too little attention on the what she terms the “unexotic” underclasses. She uses the term “unexotic” as a synonym for mundane, uninteresting, seemingly unworthy of attention (or investment) by the tech entrepreneurs or society writ-large. The working poor, single mothers,the long-term unemployed, veterans.&lt;/p&gt;
+&lt;p&gt;That being said, I’m keenly aware that other groups are not as well-served by the current state of affairs. In the &amp;lt;/a href=”http://miter.mit.edu/the-unexotic-underclass/”“&amp;gt;The Unexotic Underclass”&amp;lt;/a&amp;gt; for &lt;a href=&quot;http://miter.mit.edu/&quot;&gt;The MIT Entrepreneurship Review&lt;/a&gt;, CZ Nameka argues that entrepreneurs and the tech industry as a whole has lavished too little attention on the what she terms the “unexotic” underclasses. She uses the term “unexotic” as a synonym for mundane, uninteresting, seemingly unworthy of attention (or investment) by the tech entrepreneurs or society writ-large. The working poor, single mothers,the long-term unemployed, veterans.&lt;/p&gt;
 
 &lt;p&gt;Nameka contrasts these unexotic, ignored classes to the exotic underclasses whose plight are often publicized and lavished attention upon. As she puts it: “The exotic underclass are people who live in the emerging and third world countries that happen to be in fashion now -– Kenya, Bangladesh, Brazil, South Africa. The  exotic underclass are poor Black and Hispanic children (are there any other kind?) living in America’s urban ghettos.”&lt;/p&gt;
 
@@ -344,25 +364,6 @@ end
         
         
         <category>cultural</category>
-        
-      </item>
-    
-      <item>
-        <title>Technical Week 3: Popularity as a virtue -JavaScript at a glance</title>
-        <description>&lt;h2 id=&quot;what-is-javascript&quot;&gt;What is JavaScript?&lt;/h2&gt;
-
-&lt;p&gt;JavaScript is an object-oriented programming language and the main scripting language used in web browsers. JavaScript was originally created for Netscape 2 back in 1996 and not much later gained supported by Microsoft in Internet Explorer 3.0. It is now the de facto king of scripting language used in all major web browsers. Part of its main appeal and the impetus for its development is JavaScript’s client-side scripting. As opposed slower server-side scripting, it allows for more responsive, dynamic webpages that quickly react to user inputs by allowing processing to occur locally within the web browser rather than remotely on the server.&lt;/p&gt;
-
-&lt;h2 id=&quot;quantity-over-quality&quot;&gt;Quantity over Quality&lt;/h2&gt;
-
-&lt;p&gt;Questions of quality seem beside the point when talking about the popularity of JavaScript. JavaScript works. Instead, it’s popularity seems to be a great case-study of the network effect. It’s ubiquity across all internet-accessible media device, means that any developer wanting to create a product that can be accessed by the largest possible market segment will naturally gravitate towards JavaScript. Qualitative questions seem almost irrelevant. My very unscientific (read: haphazard) assessment of the tech blogosphere’s consensus regarding JavaScript indicates: Technical users don’t seem particularly happy about JavaScript, but they don’t seem overly miserable with it either. Non-technical users gravitate towards content mostly agnostic to the underlying technology. Hence, the status quo prevails.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Jul 2014 11:59:00 -0700</pubDate>
-        <link>/technical/2014/07/01/Javascript/</link>
-        <guid isPermaLink="true">/technical/2014/07/01/Javascript/</guid>
-        
-        
-        <category>technical</category>
         
       </item>
     
