@@ -4,10 +4,10 @@ body{
 	background-position: 30% 20%;
 	background-attachment: fixed;
 	background-size: cover;*/
-	font-family: 'Open Sans', Arial, sans-serif;
+	/*font-family: 'Open Sans', Arial, sans-serif;*/
 	font-size: 1.1em;
 	line-height:1.4;
-	min-width:870px;
+	min-width:400px;
 }
 
 header#topbar{
@@ -16,7 +16,6 @@ header#topbar{
 	background-color:rgba(275,275,275,0.9);
 	box-shadow: 2px 2px 8px #c1c1c1;
 	width:100%;
-	min-width:870px;
 	height:80px;
 	z-index:100;
 }
@@ -28,7 +27,6 @@ header h1{
 nav{
 	float:left;
 	display:inline-block;
-	width:580px;
 }
 
 nav li{
@@ -69,9 +67,11 @@ nav a:hover{
 	float:right;
 	display:inline-block;
 	font-size: 3.0em;
-	right-margin:100px;
-	margin:auto;
-	vertical-align: center;
+	margin:auto auto;
+}
+
+#alternate_big_name{
+	display: none;
 }
 
 #title{
@@ -88,14 +88,6 @@ nav a:hover{
 	background-size:cover;
 	border-bottom: 10px solid black;
 	}
-
-#third{
-	background-image: url(../assets/2_sheep.JPG);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	height:800px;
-}
 
 ul#links{
 	margin-left:20%;
@@ -121,15 +113,15 @@ ul#links a {
 	position:relative;
 	font-weight:bold;
 	font-size:1.5em;
-	float:right;
 	width:450px;
-	top: 150px;
-	right:2%;
+	top: 160px;
+	margin: 0 auto;
 }
+
 #about_me{
 	float:right;
-	/*box-sizing:border-box;
-	padding:10px;*/
+	box-sizing:border-box;
+	padding-bottom:10px;
 	background-color:rgb(0,0,0);
 	color:rgb(300,300,300);
 	height:700px;
@@ -137,29 +129,28 @@ ul#links a {
 }
 
 #about_me img{
+	display:block;
 	position:relative;
-	top:119px;
-	left: 33.333%;
+	top:120px;
+	margin: 0px auto;
 	height:200px;
 	width:200px;
 	border-radius:50%;
+	background-color:black;
 }
 
 @media screen and (max-width: 1115px) {
 	nav li{
+		padding-top:25px;
 		font-size: 1.2em;
 	}
 
-	#big_name{
+/*	#big_name{
 		bottom:5px;
 		position:relative;
 		font-size: 2.8em;
 		margin: 15px 5px;
-	}
-
-	nav{
-	width:460px;
-	}
+	}*/
 
 	nav li{
 	width: 150px;
@@ -168,16 +159,54 @@ ul#links a {
 
 @media screen and (max-width: 965px) {
 	#big_name{
-		font-size: 2.3em;
-	}
-
-	nav li{
-	font-size:1.1em;
-	padding-top:25px;
+		font-size: 2.5em;
 	}
 
 	.left{
 		left:50px;
 	}
 }
+
+@media screen and (max-width: 900px) {
+	#about_me{
+		height:700px;
+		width:400px;
+	}
+
+	.right{
+	float: none;
+	font-weight:bold;
+	font-size:1.4em;
+	margin:0px auto;
+	width:300px;
+}
+
+@media screen and (max-width: 850px) {
+	#alternate_big_name{
+		position:relative;
+		top:90px;
+		font-weight: bold;
+		font-size:2.3em;
+		display:block;
+		color:white;
+		float:right;
+		display:inline-block;
+	}
+
+	#big_name{
+		display:none;
+	}
+
+	#about_me img{
+		top: 110px;
+	}
+
+	.right{
+		top: 140px;
+	}
+
+@media screen and (max-width: 460px) {
+	nav li{
+		width:130.6px;
+	}
 
