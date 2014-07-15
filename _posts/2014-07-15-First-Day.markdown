@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Day I"
+date:   2014-07-15 7:38:00
+categories: cultural
+---
+
+I finished up my first day at DBC yesterday. With all of our orientation sessions, activities and presentations from the other phases, it wasn't until 3:30 PM that we actually started coding. 
+
+Each day we are assigned several required "anchor" challenges and several advanced "stretch" challenges. I'll admit the anchor challenges gave me and my pair quite a bit of trouble. The Roman Numerals problem asked us to create a function in Ruby that converts from Arabic numerals to Roman numerals. The Numbers In Words problem had us create a Ruby function converted a number to word-form. None of these were that difficult, familiarizing ourselves with the DBC work stations and spending the entire day sitting through orientation sessions meant that it took a while for both of us to get up and running so to speak. 
+
+My partner and I managed to come up with a working solution for the Roman Numerals challenge. Although it may not have been the cleverest or most concise solution, it was easy to follow and did a good job at separating the logic into separate helper methods. For the Numbers In Words challenge, we managed to come up with a pretty good idea of what our eventual solution should look like, but ran into trouble implementing the solution correctly.

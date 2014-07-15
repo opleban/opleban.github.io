@@ -5,9 +5,26 @@
     <description>The personal website for OJP.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Jul 2014 02:23:34 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Jul 2014 02:23:34 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Jul 2014 08:22:51 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Jul 2014 08:22:51 -0700</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>Day I</title>
+        <description>&lt;p&gt;I finished up my first day at DBC yesterday. With all of our orientation sessions, activities and presentations from the other phases, it wasn’t until 3:30 PM that we actually started coding. &lt;/p&gt;
+
+&lt;p&gt;Each day we are assigned several required “anchor” challenges and several advanced “stretch” challenges. I’ll admit the anchor challenges gave me and my pair partner quite a bit of trouble. The Roman Numerals problem asked us to create a function in Ruby that converts from Arabic numerals to Roman numerals. The Numbers In Words problem had us create a Ruby function converted a number to word-form.&lt;/p&gt;
+
+&lt;p&gt;My partner and I managed to come up with a working solution for the Roman Numerals challenge. Although it may not have been the cleverest or most concise solution, it was easy to follow and did a good job at separating the logic into separate helper methods. For the Numbers In Words challenge, we managed to come up with a pretty good idea of what our eventual solution should look like, but ran into trouble implementing the solution correctly.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:38:00 -0700</pubDate>
+        <link>/cultural/2014/07/15/First-Day/</link>
+        <guid isPermaLink="true">/cultural/2014/07/15/First-Day/</guid>
+        
+        
+        <category>cultural</category>
+        
+      </item>
     
       <item>
         <title>Good Questions</title>
@@ -341,29 +358,6 @@ end
         
         
         <category>technical</category>
-        
-      </item>
-    
-      <item>
-        <title>Cultural Week 4: The virtues of being less WEIRD</title>
-        <description>&lt;p&gt;My experience within the tech community, to date, has largely been as a consumer of products and services. As a member of the Western Educated Industrialized Rich Democratic (&lt;a href=&quot;http://www.scientificamerican.com/podcast/episode/psychology-studies-biased-toward-we-10-08-07/&quot;&gt;WEIRD&lt;/a&gt;)population, I’ve been more than satisfied by the wide array of choices available to me. There are very few aspects of my day-to-day experience, where &lt;a href=&quot;https://www.youtube.com/watch?v=szrsfeyLzyg&quot;&gt;there’s an app for that”&lt;/a&gt; doesn’t apply to my lifestyle. From Facebook, which provides a way for me to keep in constant touch with my very extended social circle to the Chipotle apps which makes remotely ordering a burrito for lunch/dinner that much more easy, to name just a couple. I’m spoiled by the plethora of products and services that are ready to meet any possible combintation of my real/imagined wants and desires.&lt;/p&gt;
-
-&lt;p&gt;That being said, I’m keenly aware that other groups are not as well-served by the current state of affairs. In the &amp;lt;/a href=”http://miter.mit.edu/the-unexotic-underclass/”“&amp;gt;The Unexotic Underclass”&amp;lt;/a&amp;gt; for &lt;a href=&quot;http://miter.mit.edu/&quot;&gt;The MIT Entrepreneurship Review&lt;/a&gt;, CZ Nameka argues that entrepreneurs and the tech industry as a whole has lavished too little attention on the what she terms the “unexotic” underclasses. She uses the term “unexotic” as a synonym for mundane, uninteresting, seemingly unworthy of attention (or investment) by the tech entrepreneurs or society writ-large. The working poor, single mothers,the long-term unemployed, veterans.&lt;/p&gt;
-
-&lt;p&gt;Nameka contrasts these unexotic, ignored classes to the exotic underclasses whose plight are often publicized and lavished attention upon. As she puts it: “The exotic underclass are people who live in the emerging and third world countries that happen to be in fashion now -– Kenya, Bangladesh, Brazil, South Africa. The  exotic underclass are poor Black and Hispanic children (are there any other kind?) living in America’s urban ghettos.”&lt;/p&gt;
-
-&lt;p&gt;To a large extent I agree with Nameka’s thesis, and I’ll spare you any further attempt to summarize her thoughtful and insightful article and suggest you read it for &lt;a href=&quot;http://miter.mit.edu/the-unexotic-underclass/&quot;&gt;yourself&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I agree with most of her points and recognize that I’m also guilty of exactly the inclination she derides. As a former Peace Corps volunteer, I know first hand the allure of the exotic, having spent two years living in a small village in the mountains of Morocco.  That being said, I also have a good deal of first-hand experience working to address the problems faced by many of the groups that make up the “unexotic” underclass. In my capacity as a caseworker at a Senate office, I was essentially a conduit between the federal government and California constituents providing assistance to a wide variety of groups in their interactions with the federal government. Veterans seeking care from the Department of Veteran Affairs, single mothers seeking Supplemental Security Income from Social Security, immigrants looking to become naturalized US citizens. Symptomatic of the general lack of attention given to these groups, many of them turn to their congressional representatives for assistance because they have no where else to turn.&lt;/p&gt;
-
-&lt;p&gt;In my mind, part of the solution for the tech community to the aforementioned problems lies not only in mobilizing more time, money and attention to these problems, but also in broadening the make-up of the tech community. It’s no secret that the tech industry has a &lt;a href=&quot;http://bits.blogs.nytimes.com/2014/02/02/techs-diversity-problem-is-apparent-as-early-as-high-school/&quot;&gt;diversity&lt;/a&gt; &lt;a href=&quot;http://www.npr.org/blogs/alltechconsidered/2014/05/29/317024113/googles-white-male-heavy-staff-underlines-techs-diversity-problem&quot;&gt;problem&lt;/a&gt;. In addition to helping to alleviate a variety of other well publicized&lt;a href=&quot;http://www.slate.com/blogs/future_tense/2013/03/25/adria_richards_her_firing_online_harassment_show_how_sexual_harassment_endures.html&quot;&gt;problems&lt;/a&gt; currently plaguging the industry, providing more avenues of entry to the tech industry for people from different ethnic, economic, and educational background will make it more likely that the tech industry will be responsive to concerns from constituencies outside of the “WEIRD” community.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Jul 2014 12:02:00 -0700</pubDate>
-        <link>/cultural/2014/07/01/WEIRD/</link>
-        <guid isPermaLink="true">/cultural/2014/07/01/WEIRD/</guid>
-        
-        
-        <category>cultural</category>
         
       </item>
     

@@ -189,8 +189,8 @@ ul#links a {
 		font-size:2.3em;
 		display:block;
 		color:white;
-		float:right;
-		display:inline-block;
+		float:none;
+		marign: 0 auto;
 	}
 
 	#big_name{
