@@ -10,6 +10,9 @@ body {
 	font-size:3.0em;
 }
 
+.filler{
+  background-color:black;
+}
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 li h1 {
 	color:white;
@@ -76,7 +79,7 @@ a:visited { color: #205caa; }
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
-	height:800px;	
+	height:800px;
 }
 
 #cold{
@@ -85,7 +88,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 50%;
-	height:800px;	
+	height:800px;
 }
 
 #cold_teleboutique{
@@ -94,7 +97,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 50%;
-	height:800px;	
+	height:800px;
 }
 
 #teleboutique{
@@ -103,7 +106,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 40%;
-	height:800px;		
+	height:800px;
 }
 
 #abandoned{
@@ -112,7 +115,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 40%;
-	height:800px;	
+	height:800px;
 }
 
 #goats{
@@ -121,7 +124,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 10%;
-	height:800px;		
+	height:800px;
 }
 
 #stove{
@@ -131,7 +134,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:45%;
 	background-position:0 40%;
-	height:800px;		
+	height:800px;
 	width:45%;
 }
 
@@ -142,7 +145,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:45%;
 	background-position:right;
-	height:800px;	
+	height:800px;
 	width:45%;
 }
 
@@ -157,7 +160,7 @@ a:visited { color: #205caa; }
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:0 40%;
-	height:800px;			
+	height:800px;
 }
 
 
@@ -169,7 +172,7 @@ a:visited { color: #205caa; }
 /* Post Header */
 .post-header {
 	position:relative;
-	top:100px; 
+	top:100px;
 	left: 30px;
 }
 
