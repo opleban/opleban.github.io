@@ -6,8 +6,10 @@ baseurl: ""
 url: ""
 twitter_username: opleban
 github_username:  opleban
-linkedIn_profile: https://www.linkedin.com/pub/ori-pleban/1a/790/67a 
-
+linkedIn_profile: https://www.linkedin.com/in/opleban/
+analytics:
+  provider: google
+    tracking_id: 'UA-55077403-1'
 # Build settings
 markdown: kramdown
 permalink: pretty
