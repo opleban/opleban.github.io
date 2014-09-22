@@ -11,6 +11,8 @@ analytics:
   provider: google
   google:
     tracking_id: 'UA-55077403-1'
+getclicky :
+    site_id :
 # Build settings
 markdown: kramdown
 permalink: pretty
