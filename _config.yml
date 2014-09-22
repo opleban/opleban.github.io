@@ -9,6 +9,7 @@ github_username:  opleban
 linkedIn_profile: https://www.linkedin.com/in/opleban/
 analytics:
   provider: google
+  google:
     tracking_id: 'UA-55077403-1'
 # Build settings
 markdown: kramdown
